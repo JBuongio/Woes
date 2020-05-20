@@ -1,0 +1,471 @@
+---
+title: "COG_coverage_with_depth"
+author: "Dr. Joy Buongiorno"
+output:
+  pdf_document: default
+  html_document: default
+goal: Examine transcriptional richness and coverage changes with depth at the COG
+  and individual gene level.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r load libraries, message = FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+library(plyr)
+library(tidyr)
+```
+
+
+##################################
+1. NirS and rDSR for Figure 2 inset
+
+Read in file that contains transcript abundance values, number of overall mapped reads to transcriptomes and metagenomes, normalized coverage values, and COG categroies. 
+
+```{r master data}
+master_mapped<-read.csv("All_Woes_combined_trans_MG_cov_normalized_mapped.csv")
+head(master_mapped)
+```
+Subset data
+```{r subset data}
+nirS<-subset(master_mapped, Gene == "Nitrite reductase")
+rDSRA<-subset(master_mapped, Gene =="Sulfite reductase, dissimilatory-type subunit alpha")
+rDSRA$Gene<-"Sulfite reductase, alpha and beta subunits"
+rDSR<-subset(master_mapped, Gene =="Dissimilatory sulfite reductase")
+rDSR$Gene<-"Sulfite reductase, alpha and beta subunits"
+rDSRB<-subset(master_mapped, Gene == "Sulfite reductase, dissimilatory-type subunit beta")
+rDSRB$Gene<-"Sulfite reductase, alpha and beta subunits"
+```
+Clean data
+```{r bind together, fix column type, and make NAs into 0}
+l<-rbind(nirS,rDSRA,rDSRB,rDSR)
+l$Metagenome_cov_normalized<-as.numeric(as.character(l$Metagenome_cov_normalized))
+l[is.na(l)] <- 0
+```
+Plot:
+```{r make palette and plot}
+cols<-c("AB"="#E69F00", "AC" = "#D55E00", "F" = "#56B4E9", "P" = "#0072B2")
+l_plot<-ggplot(l, aes(x=Depth, y=(Trans_cov_normalized*1000000), size=(Metagenome_cov_normalized*1000000))) + 
+  geom_point(aes(color=Station) ,alpha = 0.7) +
+  scale_fill_manual(
+    values = cols,
+    aesthetics = c("colour", "fill")) +
+  scale_size(name="Metagenome Coverage", range = c(2,10))+
+             #breaks = c(10, 50, 80, 100, 150, 200, 400, 600),
+             #labels = c("10", "50", "80", "100", "150", "200", "400", "600"))+
+  scale_x_continuous(limits= c(0,6))+
+  ylim(c(0,200))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), text=element_text(size=16)) +
+  labs(x="Depth (cmbsf)", y = "TPM")
+
+l_plot + facet_wrap(vars(Gene))
+```
+
+
+##################################
+2. Figure 3 analysis and plotting.
+
+Read in file that contains number of genes represented in each COG.
+
+```{r numbers data}
+numbers<-read.csv("Number_of_genes_on_by_COG.csv")
+#Remove F libraries 2-3 and 4-5 (bottom 10% of library sizes examined
+numbers<-numbers[-c(3, 5), ]
+
+numbers_m <- numbers %>% 
+  gather(COG, n, 3:22)
+```
+
+Keep labels in order so we can make a color palette for each main COG division.
+
+```{r reorder labels}
+
+numbers_m$COG<-factor(numbers_m$COG, levels=c("Cell_cycle_control_cell_division_chromosome_partitioning",	"Cell_wall_membrane_envelope_biogenesis",	"Cell_motility",	"Posttranslational_modification_protein_turnover_and_chaperones",	"Signal_transduction_mechanisms",	"Intracellular_trafficking_secretion_and_vesicular_transport",	"Defense_mechanisms",	"RNA_processing_and_modification",	"Chromatin_structure_and_dynamics",	"Translation_ribosomal_structure_and_biogenesis",	"Transcription",	"Replication_recombination_and_repair",	"Energy_production_and_conversion",	"Amino_acid_transport_and_metabolism",	"Nucleotide_transport_and_metabolism",	"Carbohydrate_transport_and_metabolism",	"Coenzyme_transport_and_metabolism",	"Lipid_transport_and_metabolism",	"Inorganic_ion_transport_and_metabolism",	"Secondary_metabolites_biosynthesis_transport_and_catabolism"),
+                           ordered = TRUE)
+```
+
+Color palette created to have cellular processing and signaling COGs are shades of pink, information storage and processing COGs are shades of ochre, and metabolism COGs are shades of ochre. 
+
+```{r color palette}
+my_cols<-c("#db41b1",
+ "#dcabc1",
+  "#d93b6b",
+ "#96576c",
+  "#dd81ba",
+  "#ae427f",
+  "#dc7b90",
+ "#e6aa3b",
+ "#947957",
+ "#c28534",
+ "#e2bc8a",
+ "#8b6222",
+ "#5e6934",
+"#76db4e",
+"#cccfa5",
+"#d3db40",
+"#7a9a6a",
+"#b8e189",
+"#519e40",
+"#9f9d3d")
+```
+Plot:
+```{r plot the data by site}
+ggplot(data=numbers_m, aes(x=Depth, y = n, colour = COG, group = COG)) + 
+  geom_point(size=2)+
+  geom_line(size=2) + facet_wrap(~Station, labeller = label_parsed)+
+  scale_color_manual(values=my_cols) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        axis.line = element_line(colour = "black"), text=element_text(size=8)) +
+  labs(x="Depth (cmbsf)", y = "Number of genes with transcripts")
+```
+
+Calculate Spearman correlation values
+
+```{r Speraman function}
+corfun<-function(x, y) {
+  corr=(cor.test(x, y,
+                 alternative="two.sided", method="spearman"))
+}
+```
+Station F data
+```{r site F, warning = FALSE}
+stnF <- numbers_m %>%
+  filter(Station == "F")
+
+stationF_cor<-ddply(stnF, .(COG), summarise,z=corfun(Depth,n)$statistic,
+      pval=corfun(Depth,n)$p.value,
+      rho.est=corfun(Depth,n)$estimate,
+      alt=corfun(Depth,n)$alternative
+) 
+
+#write.csv(stationF_cor, "stationF_cor.csv")
+
+stationF_cor_spearman_estimate <- stationF_cor[c(1,4)]
+  
+
+colnames(stationF_cor_spearman_estimate)[2] <- "stnFcor"
+```
+Station P data
+```{r site P, warning = FALSE}
+stnP <- numbers_m %>%
+  filter(Station == "P")
+
+stationP_cor<-ddply(stnP, .(COG), summarise,z=corfun(Depth,n)$statistic,
+                    pval=corfun(Depth,n)$p.value,
+                    rho.est=corfun(Depth,n)$estimate,
+                    alt=corfun(Depth,n)$alternative
+) 
+
+#write.csv(stationP_cor, "stationP_cor.csv")
+
+
+stationP_cor_spearman_estimate <- stationP_cor[c(1,4)]
+
+
+colnames(stationP_cor_spearman_estimate)[2] <- "stnPcor"
+```
+Station AC data
+```{r site AC, warning = FALSE}
+stnAC <- numbers_m %>%
+  filter(Station == "AC")
+
+stationAC_cor<-ddply(stnAC, .(COG), summarise,z=corfun(Depth,n)$statistic,
+                    pval=corfun(Depth,n)$p.value,
+                    rho.est=corfun(Depth,n)$estimate,
+                    alt=corfun(Depth,n)$alternative
+) 
+
+stationAC_cor_spearman_estimate <- stationAC_cor[c(1,4)]
+
+#write.csv(stationAC_cor, "stationAC_cor.csv")
+
+colnames(stationAC_cor_spearman_estimate)[2] <- "stnACcor"
+```
+Station AB data
+```{r site AB, warning = FALSE}
+stnAB <- numbers_m %>%
+  filter(Station == "AB")
+
+stationAB_cor<-ddply(stnAB, .(COG), summarise,z=corfun(Depth,n)$statistic,
+                     pval=corfun(Depth,n)$p.value,
+                     rho.est=corfun(Depth,n)$estimate,
+                     alt=corfun(Depth,n)$alternative
+) 
+
+stationAB_cor_spearman_estimate <- stationAB_cor[c(1,4)]
+
+colnames(stationAB_cor_spearman_estimate)[2] <- "stnABcor"
+
+
+#write.csv(stationAB_cor, "stationAB_cor.csv")
+```
+Compile results
+```{r compile results for writing out, warning = FALSE}
+allstn_cor <- Reduce(function(x, y) merge(x, y, all=TRUE),
+                     list(stationAB_cor_spearman_estimate, stationAC_cor_spearman_estimate,
+                          stationP_cor_spearman_estimate, stationF_cor_spearman_estimate))
+
+
+allstn_cor_append <- rbind(allstn_cor, data.frame("COG" = "Overall_Spearman", "stnABcor" = -0.2625287,
+                                                  "stnACcor" = 	0.3081435, "stnPcor" = 0.4099108,
+                                                  "stnFcor" = 0.113896 ))
+
+
+all_cor<-ddply(numbers_m, .(Station), summarise,z=corfun(Depth,n)$statistic,
+                    pval=corfun(Depth,n)$p.value,
+                    rho.est=corfun(Depth,n)$estimate,
+                    alt=corfun(Depth,n)$alternative
+) 
+
+#write.csv(all_cor, "all_cor.csv")
+```
+
+##################################
+3. Transcriptional coverage by COG
+
+Cellular processing and signaling mean and max
+```{r cellular processing and signaling data}
+signal_cog<-master_mapped %>%filter(str_detect(COG, "Cellular processes and signaling"))
+#Remove small libraries (smallest 10% of our samples)
+signal_cog<-signal_cog[!(signal_cog$Station == "F" & signal_cog$Depth == "2.5"), ]
+signal_cog<-signal_cog[!(signal_cog$Station == "F" & signal_cog$Depth == "4.5"), ]
+#Remove Spore protein SP21 (swamps out signals). 
+signal_cog<-signal_cog %>% filter(Gene!="Spore protein SP21")
+signal_cog$Metagenome_cov_normalized<-as.numeric(as.character(signal_cog$Metagenome_cov_normalized))
+signal_cog[is.na(signal_cog)] <- 0
+mean(signal_cog$Trans_cov_normalized)*1000000
+max(signal_cog$Trans_cov_normalized)*1000000
+```
+Plot:
+```{r plot cellular processing and signaling data}
+signal_cog_plot<-ggplot(signal_cog, aes(x=Depth, y=(Trans_cov_normalized*1000000), size=(Metagenome_cov_normalized*1000000))) + 
+  geom_point(aes(color=Station) ,alpha = 0.7) +
+  scale_fill_manual(
+    values = cols,
+    aesthetics = c("colour", "fill")) +
+  scale_size(name="Metagenome Coverage", range = c(2,9),
+             breaks = c(10, 50, 80, 100) ,
+             labels = c("10", "50", "80", "100"))+
+  scale_x_continuous(limits= c(0,6))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), text=element_text(size=16)) +
+  labs(x="Depth (cmbsf)", y = "TPM")
+
+signal_cog_plot + facet_wrap(vars(Station))
+```
+Spearman calculation for cellular processing and signaling
+```{r Spearman, signaling transcripts}
+signal_cor<-ddply(signal_cog, .(Station), summarise,z=corfun(Depth,Trans_cov_normalized)$statistic,
+               pval=corfun(Depth,Trans_cov_normalized)$p.value,
+               rho.est=corfun(Depth,Trans_cov_normalized)$estimate,
+               alt=corfun(Depth,Trans_cov_normalized)$alternative
+) 
+
+signal_cor_spearman_estimate <- signal_cor[c(1,3,4)]
+
+colnames(signal_cor_spearman_estimate)[2] <- "Signaling.pval"
+colnames(signal_cor_spearman_estimate)[3] <- "Signaling.rho"
+```
+Information storage and processing mean and max 
+```{r Information storage and processing data}
+info_cog<-master_mapped %>%filter(str_detect(COG, "Information storage and processing"))
+#Remove small libraries (smallest 10% of our samples)
+info_cog<-info_cog[!(info_cog$Station == "F" & info_cog$Depth == "2.5"), ]
+info_cog<-info_cog[!(info_cog$Station == "F" & info_cog$Depth == "4.5"), ]
+info_cog$Metagenome_cov_normalized<-as.numeric(as.character(info_cog$Metagenome_cov_normalized))
+info_cog[is.na(info_cog)] <- 0
+mean(info_cog$Trans_cov_normalized)*1000000
+max(info_cog$Trans_cov_normalized)*1000000
+```
+Plot:
+```{r plot information and storage processing data}
+info_cog_plot<-ggplot(info_cog, aes(x=Depth, y=(Trans_cov_normalized*1000000), size=(Metagenome_cov_normalized*1000000))) + 
+  geom_point(aes(color=Station) ,alpha = 0.7) +
+  scale_fill_manual(
+    values = cols,
+    aesthetics = c("colour", "fill")) +
+  scale_size(name="Metagenome Coverage", range = c(2,10),
+             breaks = c(10, 50, 80, 100, 150, 180) ,
+             labels = c("10", "50", "80", "100", "150", "180"))+
+  scale_x_continuous(limits= c(0,6))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), text=element_text(size=16)) +
+  labs(x="Depth (cmbsf)", y = "TPM")
+
+info_cog_plot + facet_wrap(vars(Station))
+```
+Spearman calculation for information storagea and processing
+```{r Spearman, information transcripts}
+info_cor<-ddply(info_cog, .(Station), summarise,z=corfun(Depth,Trans_cov_normalized)$statistic,
+                  pval=corfun(Depth,Trans_cov_normalized)$p.value,
+                  rho.est=corfun(Depth,Trans_cov_normalized)$estimate,
+                  alt=corfun(Depth,Trans_cov_normalized)$alternative
+) 
+
+info_cor_spearman_estimate <- info_cor[c(1,3,4)]
+
+colnames(info_cor_spearman_estimate)[2] <- "Info.pval"
+colnames(info_cor_spearman_estimate)[3] <- "Info.rho"
+```
+Metabolism mean and max
+```{r metabolism data}
+met_cog<-master_mapped %>%filter(str_detect(COG, "Metabolism"))
+met_cog<-met_cog[!(met_cog$Station == "F" & met_cog$Depth == "2.5"), ]
+met_cog<-met_cog[!(met_cog$Station == "F" & met_cog$Depth == "4.5"), ]
+met_cog$Metagenome_cov_normalized<-as.numeric(as.character(met_cog$Metagenome_cov_normalized))
+met_cog[is.na(met_cog)] <- 0
+mean(met_cog$Trans_cov_normalized)*1000000
+max(met_cog$Trans_cov_normalized)*1000000
+```
+Plot:
+```{r plot metabolism data}
+met_cog_plot<-ggplot(met_cog, aes(x=Depth, y=(Trans_cov_normalized*1000000), size=(Metagenome_cov_normalized*1000000))) + 
+  geom_point(aes(color=Station) ,alpha = 0.7) +
+  scale_fill_manual(
+    values = cols,
+    aesthetics = c("colour", "fill")) +
+  scale_size(name="Metagenome Coverage", range = c(2,10),
+  breaks = c(10, 50, 80, 100, 150, 180) ,
+  labels = c("10", "50", "80", "100", "150", "180"))+
+  scale_x_continuous(limits= c(0,6))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), text=element_text(size=16)) +
+  labs(x="Depth (cmbsf)", y = "TPM")
+
+met_cog_plot + facet_wrap(vars(Station))
+```
+Spearman calculation for metabolism
+```{r Spearman, metabolism transcripts}
+met_cor<-ddply(met_cog, .(Station), summarise,z=corfun(Depth,Trans_cov_normalized)$statistic,
+                     pval=corfun(Depth,Trans_cov_normalized)$p.value,
+                     rho.est=corfun(Depth,Trans_cov_normalized)$estimate,
+                     alt=corfun(Depth,Trans_cov_normalized)$alternative
+) 
+
+met_cor_spearman_estimate <- met_cor[c(1,3,4)]
+
+colnames(met_cor_spearman_estimate)[2] <- "Metabo.pval"
+colnames(met_cor_spearman_estimate)[3] <- "Metabo.rho"
+```
+
+Bind Spearman rho and pvalues together
+```{r bind Spearman rho and pval}
+allCOG_cor <- Reduce(function(x, y) merge(x, y, all=TRUE),
+                     list(signal_cor_spearman_estimate, info_cor_spearman_estimate,
+                          met_cor_spearman_estimate))
+
+
+#write.csv(allCOG_cor, "Rho_and_pvals_COGs.csv")
+```
+##################################
+4. Plot how dominant SP21 transcription is
+
+Make data frame
+```{r all transcription data}
+k<-master_mapped[!(master_mapped$Station == "F" & master_mapped$Depth == "2.5"), ]
+k<-master_mapped[!(master_mapped$Station == "F" & master_mapped$Depth == "4.5"), ]
+k$Metagenome_cov_normalized<-as.numeric(as.character(k$Metagenome_cov_normalized))
+k[is.na(k)] <- 0
+```
+Calculate TPM
+```{r make TPM column}
+k$TPM<-k$Trans_cov_normalized*1000000
+```
+
+Find min TPM
+```{r find min transcript}
+min(k$TPM)
+k[which.min(k$TPM),] %>% select(Gene,TPM)
+```
+
+Find max TPM
+```{r find max transcript}
+max(k$TPM)
+k[which.max(k$TPM),] %>% select(Gene, Station, Depth, TPM)
+
+k_noSp21<-k %>% filter(!Gene == "Spore protein SP21")
+max(k_noSp21$TPM)
+k_noSp21[which.max(k_noSp21$TPM),] %>% select(Gene, Station, Depth, TPM)
+```
+
+Find mean TPM
+```{r find transcription average}
+mean(k$TPM)
+```
+Find range of spore protein SP21
+```{r find range spore protein SP21}
+sp21_only<-k %>% filter(Gene == "Spore protein SP21")
+min(sp21_only$TPM)
+max(sp21_only$TPM)
+```
+Plot:
+```{r plot all genes on X axis coverage values on y axis, color by COG}
+COG_pal<-c("Metabolism" = "forestgreen", "Information storage and processing" = "khaki3", "Cellular processes and signaling" =  "hotpink", "Unknown" = "purple")
+k_plot<-ggplot(k, aes(x=Gene, y=TPM, size=(Metagenome_cov_normalized*1000000))) + 
+  geom_point(aes(color=COG) ,alpha = 0.7) +
+  scale_size(name="Metagenome Coverage", range = c(2,10),
+             breaks = c(10, 50, 80, 100, 150, 180) ,
+             labels = c("10", "50", "80", "100", "150", "180"))+
+  scale_color_manual(values = COG_pal)+
+  ylim(c(0, 310000))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), text=element_text(size=12)) +
+  labs(x="Gene", y = "TPM")
+
+
+k_plot + facet_wrap(vars(Station))
+```
+
+
+##################################
+5. Stress-related genes
+```{r Stress-related geens}
+stress<-master_mapped %>% filter(str_detect(Gene, "chaperonin") |
+                                   str_detect(Gene, "Catalase-peroxidase") | 
+                                   str_detect(Gene, "Lon protease") | 
+                                   str_detect(Gene, "Hypoxic response")| 
+                                   str_detect(Gene, "Chaperone") | 
+                                   str_detect(Gene, "Spore coat") | 
+                                   str_detect(Gene, "Chaperone protein") | 
+                                   str_detect(Gene, "shock") | 
+                                   str_detect(Gene, "stress") |
+                                   str_detect(Gene, "(p)ppGpp synthase") | 
+                                   str_detect(Gene, "DksA") | 
+                                   str_detect(Gene, "DegQ") |
+                                   str_detect(Gene, "Protein-L-isoaspartate O-methyltransferase") |
+                                   str_detect(Gene, "Protein-methionine-sulfoxide reductase") | 
+                                   str_detect(Gene, "regulatory protein"))
+stress$Metagenome_cov_normalized<-as.numeric(as.character(stress$Metagenome_cov_normalized))
+stress<-stress[!(stress$Station == "F" & stress$Depth == "2.5"), ]
+stress<-stress[!(stress$Station == "F" & stress$Depth == "4.5"), ]
+stress[is.na(stress)] <- 0
+```
+Plot:
+```{r plot stress genes}
+stress_plot<-ggplot(stress, aes(x=Depth, y=(Trans_cov_normalized*1000000), size=(Metagenome_cov_normalized*1000000))) + 
+  geom_point(aes(color=Station) ,alpha = 0.7) +
+  scale_fill_manual(
+    values = cols,
+    aesthetics = c("colour", "fill")) +
+  scale_size(name="Metagenome Coverage", range = c(2,10),
+             breaks = c(10, 50, 80, 100, 150, 180) ,
+             labels = c("10", "50", "80", "100", "150", "180"))+
+  scale_x_continuous(limits= c(0,6))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"), text=element_text(size=8)) +
+  labs(x="Depth (cmbsf)", y = "TPM")
+
+stress_plot + facet_wrap(vars(Gene))
+```
+Mean and max stress gene TPM
+```{r find transcriptional average, max for stress}
+mean(stress$Trans_cov_normalized*1000000)
+max(stress$Trans_cov_normalized*1000000)
+stress[which.max(stress$Trans_cov_normalized*1000000),] %>% select(Gene, Station, Depth, Trans_cov_normalized)
+```
