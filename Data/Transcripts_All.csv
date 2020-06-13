@@ -1,0 +1,1049 @@
+﻿Gene,AB,AC,F,P,Summed coverage,Number of sites transcribed
+(3S)-malyl-CoA thioesterase,0,1,0,0,0.204872647,1
+1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase,0,0,1,0,0.278002699,1
+1-acyl-sn-glycerol-3-phosphate acyltransferase,0,0,1,0,0.135338346,1
+"1,2-phenylacetyl-CoA epoxidase, subunit A",1,0,0,1,0.304101254,2
+"1,2-phenylacetyl-CoA epoxidase, subunit C",1,0,0,0,0.180555556,1
+"1,4-alpha-glucan branching enzyme GlgB",0,0,1,1,0.112328767,2
+"1,4-dihydroxy-2-naphthoate octaprenyltransferase",0,0,1,0,0.37195122,1
+"1,5-anhydro-D-fructose reductase",1,0,1,0,0.522349371,2
+10 kDa chaperonin,1,0,1,1,2.246242229,3
+2-amino-3-ketobutyrate coenzyme A ligase,1,1,0,1,0.732112573,3
+2-dehydro-3-deoxyphosphooctonate aldolase,1,1,0,0,0.779193975,2
+2-dehydropantoate 2-reductase,0,0,1,0,0.242902208,1
+2-hydroxy-3-oxopropionate reductase,0,1,0,0,0.372685185,1
+2-isopropylmalate synthase,0,0,1,0,0.185958254,1
+2-methylcitrate dehydratase,0,0,1,0,0.526818153,1
+2-octaprenyl-6-methoxyphenol hydroxylase,0,0,1,0,0.238209432,1
+2-oxoglutarate dehydrogenase E1 component,1,1,0,1,0.09520948,3
+2-oxoglutarate oxidoreductase subunit KorA,1,1,0,1,0.768727832,3
+2-oxoglutarate oxidoreductase subunit KorB,1,1,1,1,0.932256074,4
+2-oxoglutarate synthase subunit KorA,0,0,0,1,0.11546841,1
+2-oxoisovalerate dehydrogenase subunit alpha,1,0,0,1,0.479165314,2
+2-oxoisovalerate dehydrogenase subunit beta,1,0,0,0,0.46618296,1
+"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase",0,0,0,1,0.223552894,1
+"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase",0,1,0,0,0.112903226,1
+"2,5-dioxopentanoate dehydrogenase",1,1,1,1,0.684760316,4
+23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD,1,1,0,0,0.367346451,2
+3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase,0,1,0,0,0.233974359,1
+"3-[(3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H-inden-4-yl]propanoyl:CoA ligase",1,0,1,1,1.249802691,3
+3-dehydroquinate synthase,0,0,1,0,0.142857143,1
+3-deoxy-D-manno-octulosonic acid transferase,1,0,1,1,0.60759406,3
+3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ,0,0,1,0,0.066225166,1
+3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase,0,0,0,1,0.523550725,1
+3-hydroxylaminophenol mutase,0,0,1,0,0.193777778,1
+3-hydroxypropionyl-coenzyme A dehydratase,1,0,0,0,0.420845624,1
+3-isopropylmalate dehydratase large subunit,1,0,0,0,0.137086903,1
+3-ketoacyl-CoA thiolase,1,0,1,1,1.551574852,3
+3-mercaptopropionate dioxygenase,1,0,0,0,0.455782313,1
+3-methylmercaptopropionyl-CoA dehydrogenase,1,0,1,1,1.452193482,3
+3-methylmercaptopropionyl-CoA ligase,1,1,0,0,0.871611266,2
+3-oxoacyl-[acyl-carrier-protein] reductase FabG,1,1,1,1,2.150689253,4
+3-oxoacyl-[acyl-carrier-protein] synthase 1,0,1,1,1,0.612211221,3
+3-oxoacyl-[acyl-carrier-protein] synthase 2,0,0,0,1,0.212840809,1
+3-oxoacyl-[acyl-carrier-protein] synthase 3,0,0,1,0,0.212590299,1
+3-oxoadipate CoA-transferase subunit B,1,0,0,0,0.217836258,1
+3-phosphoshikimate 1-carboxyvinyltransferase,1,0,1,0,0.325910158,2
+3-phytase,0,0,1,0,0.133726647,1
+3-succinoylsemialdehyde-pyridine dehydrogenase,1,0,0,0,0.37012012,1
+3'-5' ssDNA/RNA exonuclease TatD,0,1,0,0,0.503144654,1
+30S ribosomal protein S1,1,0,1,1,0.679814306,3
+30S ribosomal protein S10,1,0,1,1,3.892184047,3
+30S ribosomal protein S11,0,1,1,0,1.152230972,2
+30S ribosomal protein S12,1,1,1,1,5.324922775,4
+30S ribosomal protein S13,0,1,1,0,0.896358544,2
+30S ribosomal protein S14,0,1,1,0,1.58897414,2
+30S ribosomal protein S15,1,0,1,0,1.974238245,2
+30S ribosomal protein S17,1,1,1,1,6.136807062,4
+30S ribosomal protein S18,0,1,0,1,1.782222222,2
+30S ribosomal protein S19,0,1,0,1,0.406593407,2
+30S ribosomal protein S2,1,0,0,0,0.030521262,1
+30S ribosomal protein S20,0,0,1,0,0.370786517,1
+30S ribosomal protein S21,1,0,0,0,0.843915344,1
+30S ribosomal protein S3,0,1,1,1,1.400648724,3
+30S ribosomal protein S4,0,1,1,0,1.21900161,2
+30S ribosomal protein S5,1,1,1,1,2.067753577,4
+30S ribosomal protein S6,1,0,0,0,0.053830228,1
+30S ribosomal protein S7,0,1,0,1,0.522916667,2
+30S ribosomal protein S8,1,0,1,0,2.319806981,2
+30S ribosomal protein S9,0,0,0,1,0.625954198,1
+30S ribosome-binding factor,0,0,1,0,0.093663912,1
+"3D-(3,5/4)-trihydroxycyclohexane-1,2-dione hydrolase",0,0,0,1,0.133443163,1
+4-aminobutyrate aminotransferase GabT,0,1,0,0,0.213930348,1
+4-hydroxy-tetrahydrodipicolinate synthase,0,0,1,0,0.129753915,1
+4-hydroxybenzoyl-CoA reductase subunit alpha,0,1,0,0,0.250559284,1
+4-hydroxyphenylpyruvate dioxygenase,1,0,0,1,0.375299143,2
+4-methylaminobutanoate oxidase (formaldehyde-forming),0,0,0,1,0.10974611,1
+4-sulfomuconolactone hydrolase,1,0,0,0,0.124929018,1
+4'-phosphopantetheinyl transferase sfp,0,0,1,0,0.238683128,1
+5-aminovalerate aminotransferase DavT,0,0,1,0,0.040030793,1
+5-dehydro-2-deoxygluconokinase,0,0,1,0,0.110767646,1
+5'-deoxyadenosine deaminase,0,1,0,1,0.463603943,2
+5'-nucleotidase SurE,0,0,0,1,0.283801874,1
+50S ribosomal protein L1,1,1,1,1,2.5688971,4
+50S ribosomal protein L10,1,1,1,1,3.211197356,4
+50S ribosomal protein L11,0,0,1,0,0.128735632,1
+50S ribosomal protein L14,0,1,1,0,1.433604337,2
+50S ribosomal protein L15,0,1,0,1,0.781609195,2
+50S ribosomal protein L16,1,0,1,1,0.86370298,3
+50S ribosomal protein L17,1,0,0,1,0.641350539,2
+50S ribosomal protein L18,1,1,1,1,2.875892857,4
+50S ribosomal protein L19,0,0,1,0,0.327536232,1
+50S ribosomal protein L2,1,1,1,1,1.615104941,4
+50S ribosomal protein L20,0,0,1,0,1.306451612,1
+50S ribosomal protein L21,1,1,1,1,1.579777906,4
+50S ribosomal protein L22,0,1,1,1,1.06006006,3
+50S ribosomal protein L23,0,1,0,1,1.79935275,2
+50S ribosomal protein L24,1,0,1,0,1.027043959,2
+50S ribosomal protein L25,1,1,1,1,2.787587628,4
+50S ribosomal protein L27,1,1,0,0,1.879740205,2
+50S ribosomal protein L29,1,0,1,0,1.541580401,2
+50S ribosomal protein L3,1,1,1,0,1.41936902,3
+50S ribosomal protein L3 glutamine methyltransferase,1,0,0,0,0.274451098,1
+50S ribosomal protein L30,0,0,1,1,0.37037037,2
+50S ribosomal protein L31,0,1,0,1,1.386986301,2
+50S ribosomal protein L35,0,1,1,0,4.232323232,2
+50S ribosomal protein L4,1,1,0,0,1.085830956,2
+50S ribosomal protein L5,1,0,1,0,1.533765214,2
+50S ribosomal protein L6,0,0,0,1,0.247191011,1
+50S ribosomal protein L7/L12,1,1,1,1,8.130014647,4
+50S ribosomal protein L9,0,0,0,1,0.995555556,1
+6-aminohexanoate-dimer hydrolase,1,0,0,0,0.096969697,1
+6-hydroxy-D-nicotine oxidase,1,1,1,1,1.913169386,4
+6-oxocyclohex-1-ene-1-carbonyl-CoA hydrolase,0,0,0,1,0.225749559,1
+6-phosphogluconolactonase,0,0,1,0,0.081967213,1
+"6,7-dimethyl-8-ribityllumazine synthase",1,0,0,0,0.443701226,1
+60 kDa chaperonin,1,1,1,1,6.351263927,4
+8-oxoguanine deaminase,1,0,1,0,0.441238902,2
+ABC transporter ATP-binding protein NatA,0,0,0,1,0.153846154,1
+ABC transporter ATP-binding protein uup,0,0,0,1,0.133903134,1
+ABC transporter ATP-binding protein YtrB,0,0,0,1,0.143356643,1
+ABC transporter ATP-binding protein YtrE,0,0,0,1,0.280898876,1
+ABC transporter ATP-binding/permease protein,1,1,0,1,2.368662782,3
+ABC transporter permease YtrF,1,0,0,0,0.192225773,1
+Acetaldehyde dehydrogenase 2,0,1,1,0,0.450632911,2
+Acetate--CoA ligase [ADP-forming] I,0,1,0,0,0.206154988,1
+"Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta",1,0,0,0,0.25047081,1
+Acetolactate synthase large subunit,1,0,0,0,0.182900579,1
+Acetophenone carboxylase gamma subunit,1,0,0,0,0.091856061,1
+Acetyl-/propionyl-coenzyme A carboxylase alpha chain,1,0,1,0,0.10298621,2
+Acetyl-CoA acetyltransferase,1,1,0,1,0.745728045,3
+Acetyl-CoA:oxalate CoA-transferase,0,0,1,0,0.029561672,1
+Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha,0,0,1,0,0.402083333,1
+Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta,0,0,1,0,0.352941176,1
+Acetyl-coenzyme A synthetase,1,1,1,1,2.407200441,4
+Acetylglutamate kinase,0,0,0,1,0.093951094,1
+Acetyltransferase,0,0,1,0,0.620253165,1
+Aconitate hydratase A,0,0,0,1,0.209459459,1
+Acrylyl-CoA reductase AcuI,0,1,0,0,0.098989899,1
+Acyl carrier protein,1,0,1,0,31.64746815,2
+Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase,1,0,1,0,0.498316688,2
+Acyl-CoA dehydrogenase,1,1,1,1,1.566905786,4
+"Acyl-CoA dehydrogenase, short-chain specific",0,0,1,0,0.166238218,1
+Acyl-CoA thioesterase 2,0,0,1,0,0.385730212,1
+Acyl-CoA thioesterase YbgC,0,1,1,0,1.65258216,2
+Acyl-coenzyme A dehydrogenase,0,0,1,1,0.545372948,2
+Adenine deaminase,0,0,1,0,0.183641975,1
+Adenine DNA glycosylase,0,1,1,0,0.626298701,2
+Adenosine monophosphate-protein transferase SoFic,0,1,0,0,0.293609672,1
+Adenosylhomocysteinase,1,1,1,1,1.704466913,4
+Adenylate kinase,0,1,0,1,0.37699823,2
+Adenylosuccinate lyase,0,0,1,0,0.052370842,1
+Adenylosuccinate synthetase,1,0,0,1,0.519349619,2
+Adenylylsulfate reductase subunit alpha,0,1,1,1,1.426066941,3
+Adenylylsulfate reductase subunit beta,0,1,1,0,2.212542492,2
+ADP-ribose pyrophosphatase,0,0,0,1,0.205992509,1
+Aerobic glycerol-3-phosphate dehydrogenase,0,1,0,0,0.347169812,1
+Aerobic respiration control sensor protein ArcB,1,1,1,1,1.408273628,4
+AI-2 transport protein TqsA,1,0,0,1,0.268709715,2
+Alanine dehydrogenase,0,1,1,1,0.635472371,3
+Alanine racemase,0,0,0,1,0.193078324,1
+Alanine--tRNA ligase,1,0,0,1,0.194373513,2
+Aldehyde oxidoreductase,0,0,1,1,0.176533907,2
+Aldehyde-alcohol dehydrogenase,0,1,0,1,0.42967834,2
+Alginate lyase,1,0,1,0,0.273770615,2
+Alkaline phosphatase synthesis transcriptional regulatory protein PhoP,1,1,0,0,1.009810292,2
+allantoicase,1,0,0,0,0.164779874,1
+Alpha-keto acid-binding periplasmic protein TakP,1,1,0,0,0.553377271,2
+Alpha-ketoglutaric semialdehyde dehydrogenase,1,0,0,0,0.102040817,1
+Alternative cytochrome c oxidase subunit 1,0,0,1,1,0.090136055,2
+Alternative cytochrome c oxidase subunit 2,0,0,1,0,0.045824095,1
+Amidophosphoribosyltransferase,0,1,1,0,0.556979731,2
+Aminomethyltransferase,0,1,1,1,1.477072373,3
+Anaerobic glycerol-3-phosphate dehydrogenase subunit C,0,0,1,1,0.130597623,2
+Anthranilate phosphoribosyltransferase,0,1,0,0,0.269005848,1
+Anthranilate synthase component 1,0,0,1,0,0.025423729,1
+Aralkylamine dehydrogenase light chain,0,0,0,1,0.282051282,1
+Archaetidylserine synthase,0,1,0,0,0.359396433,1
+Arginase,1,0,0,0,0.491987906,1
+Arginine repressor,0,0,0,1,0.684326711,1
+Arginine--tRNA ligase,1,0,0,0,0.156521739,1
+Argininosuccinate lyase,0,1,0,0,0.067692308,1
+Arsenic resistance transcriptional regulator ArsR2,0,0,1,0,0.068965517,1
+Arsenical-resistance protein Acr3,1,0,0,1,0.710635727,2
+Arylsulfatase,1,1,1,1,6.8780796,4
+Aspartate aminotransferase,0,0,0,1,0.128595601,1
+Aspartate carbamoyltransferase,1,0,0,0,0.142570281,1
+Aspartate--ammonia ligase,1,0,0,0,0.052594172,1
+Aspartate--tRNA(Asp/Asn) ligase,0,0,1,0,0.059785674,1
+Aspartate-semialdehyde dehydrogenase 2,0,1,0,0,0.652981428,1
+Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B,1,0,0,1,0.195856992,2
+ATP phosphoribosyltransferase,0,0,0,1,0.389542484,1
+ATP synthase gamma chain,0,0,1,0,0.13860252,1
+ATP synthase subunit a,1,0,0,1,0.271600719,2
+ATP synthase subunit alpha,1,1,1,1,1.588358811,4
+ATP synthase subunit b,0,0,1,0,0.641350211,1
+ATP synthase subunit beta,1,1,1,1,1.352348071,4
+ATP synthase subunit delta,0,0,1,0,0.014336918,1
+ATP-dependent Clp protease adapter protein ClpS,1,0,0,0,0.960648148,1
+ATP-dependent Clp protease ATP-binding subunit ClpA,1,0,1,1,0.46426336,3
+ATP-dependent Clp protease ATP-binding subunit ClpX,1,0,1,1,1.541885258,3
+ATP-dependent Clp protease proteolytic subunit,0,0,1,0,0.108974359,1
+ATP-dependent DNA helicase RecQ,0,1,0,0,0.05360134,1
+ATP-dependent helicase/nuclease subunit A,0,0,1,0,0.017215791,1
+ATP-dependent protease ATPase subunit HslU,0,0,1,1,0.357941834,2
+ATP-dependent protease subunit HslV,1,0,0,1,0.194642504,2
+ATP-dependent RNA helicase RhlB,1,0,0,0,0.058447489,1
+ATP-dependent RNA helicase RhlE,0,0,1,1,0.252934662,2
+ATP-dependent zinc metalloprotease FtsH,1,1,1,1,1.107168259,4
+Beta-alanine--pyruvate aminotransferase,1,0,1,0,0.573158369,2
+Beta-barrel assembly-enhancing protease,1,1,0,0,0.777006556,2
+Bifunctional (p)ppGpp synthase/hydrolase SpoT,0,1,0,0,0.555625424,1
+Bifunctional NAD(P)H-hydrate repair enzyme Nnr,0,0,1,0,0.154158215,1
+Bifunctional protein FolD protein,0,1,1,0,1.001121445,2
+Bifunctional protein GlmU,1,0,1,0,0.328400676,2
+Bifunctional protein PutA,1,0,0,0,0.111111111,1
+Bifunctional purine biosynthesis protein PurH,0,0,0,1,0.031653747,1
+Bifunctional transcriptional activator/DNA repair enzyme AdaA,0,0,1,0,0.050980392,1
+Bifunctional uridylyltransferase/uridylyl-removing enzyme,0,0,1,0,0.019693654,1
+Biopolymer transport protein ExbB,1,1,1,1,4.631195343,4
+Biopolymer transport protein ExbD,0,1,1,1,2.06442503,3
+Biotin carboxyl carrier protein of acetyl-CoA carboxylase,1,0,0,0,0.329896907,1
+Biotin carboxylase,1,0,0,0,0.220538721,1
+"Bis(5'-nucleosyl)-tetraphosphatase, symmetrical",1,0,0,0,0.087134503,1
+Branched-chain-amino-acid aminotransferase,1,0,0,0,0.178657075,1
+"Cadmium, cobalt and zinc/H(+)-K(+) antiporter",0,1,0,0,1.08496732,1
+Caffeate CoA-transferase,1,0,0,0,0.062430324,1
+Caffeyl-CoA reductase-Etf complex subunit CarC,1,0,0,0,0.226804124,1
+Calcium-transporting ATPase 1,0,0,0,1,0.100783875,1
+cAMP-activated global transcriptional regulator CRP,0,0,1,0,0.862385321,1
+Capsule biosynthesis protein CapA,0,1,1,0,0.026292236,2
+Carbamate kinase,0,0,1,0,0.252834467,1
+Carbamoyl-phosphate synthase large chain,1,1,1,1,0.312061172,4
+Carbamoyl-phosphate synthase small chain,1,0,0,0,0.13003663,1
+Carbamoyltransferase HypF,1,0,1,1,0.34942231,3
+Carbon dioxide concentrating mechanism protein CcmL,1,1,0,0,1.487322202,2
+Carbon dioxide-concentrating mechanism protein CcmK ,1,0,0,0,0.587720132,1
+Carbon monoxide dehydrogenase small chain,0,1,0,0,0.190871369,1
+Carbon storage regulator,1,0,0,1,5.387871502,2
+Carboxymethylenebutenolidase,1,0,1,0,0.433439442,2
+Carboxypeptidase G2,0,0,1,0,0.464461224,1
+Cardiolipin synthase C,0,0,1,0,0.114137484,1
+Catalase-peroxidase 2,1,1,1,1,1.514200325,4
+Cation efflux system protein CusB,0,0,1,0,0.288778878,1
+Cation/acetate symporter ActP,1,1,1,1,3.018900312,4
+Cbb3-type cytochrome c oxidase subunit CcoN1,1,1,1,0,0.379469407,3
+Cbb3-type cytochrome c oxidase subunit CcoP2,1,0,0,1,0.655263397,2
+CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase,0,0,0,1,0.310645724,1
+Cell division ATP-binding protein FtsE,1,0,0,0,1.62483537,1
+Cell division coordinator CpoB,0,0,0,1,0.300907912,1
+Cell division protein FtsA,0,1,1,1,0.82679212,3
+Cell division protein FtsQ,0,0,0,1,0.179581796,1
+Cell division protein FtsZ,1,1,1,1,2.847124977,4
+Cell division protein ZapA,0,0,1,1,0.47936508,2
+Cell-division control histidine kinase PdhS,1,0,0,0,0.146666667,1
+Chaperone protein ClpB,1,1,1,1,0.965580608,4
+Chaperone protein ClpB 1,0,0,1,0,0.146492861,1
+Chaperone protein DnaJ,0,1,0,0,0.026595745,1
+Chaperone protein DnaK,1,1,1,1,2.192953379,4
+Chaperone protein HtpG,1,1,1,1,0.274385169,4
+Chaperone protein Skp,0,0,1,0,0.151851852,1
+Chaperone SurA,1,1,0,0,0.366290353,2
+Chemotaxis protein CheA,0,0,1,1,0.163903003,2
+Chemotaxis protein CheW,1,1,0,0,0.626139818,2
+Chlorinase,0,0,1,0,0.127371274,1
+Choline-sulfatase,1,0,1,0,0.605336911,2
+Chromosome partition protein Smc,1,1,0,0,0.853552556,2
+Chromosome-partitioning ATPase Soj,1,1,1,1,3.558413818,4
+Citrate synthase,1,1,1,1,3.063894181,4
+Co-chaperone protein DjlA,0,0,1,0,0.507589098,1
+CoB--CoM heterodisulfide reductase iron-sulfur subunit A,1,0,0,0,0.365384615,1
+CoB--CoM heterodisulfide reductase iron-sulfur subunit C,1,0,0,1,1.007219891,2
+CoB--CoM heterodisulfide reductase iron-sulfur subunit D,1,1,1,1,2.722227973,4
+Cobalt-zinc-cadmium resistance protein CzcA,0,0,1,1,0.434460742,2
+"Cobyrinate a,c-diamide synthase",0,0,1,0,0.181547619,1
+Coenzyme A biosynthesis bifunctional protein CoaBC,1,0,1,0,0.73865977,2
+Cold shock protein CspB,1,1,0,1,3.672941204,3
+Cold shock protein CspD,1,1,1,0,3.42014777,3
+Cold shock protein ScoF,1,0,1,1,3.171014492,3
+Cold shock-like protein CspE,1,1,1,1,2.089638251,4
+Cold shock-like protein CspLA,1,0,0,0,0.733333333,1
+Colicin I receptor,1,1,1,1,2.895382902,4
+Colicin V production protein,1,0,1,0,0.597677596,2
+Competence protein ComM,0,0,0,1,0.037258816,1
+Copper-exporting P-type ATPase A,0,0,1,0,0.053835801,1
+CTP synthase,1,0,1,1,0.350005674,3
+Curved DNA-binding protein,0,1,1,0,0.389064143,2
+Cyanophycin synthetase,1,1,0,1,0.309078711,3
+Cyclic di-GMP phosphodiesterase Gmr,0,0,1,0,0.235173824,1
+Cyclic di-GMP phosphodiesterase PdeB,1,1,0,1,0.918707074,3
+Cyclic di-GMP phosphodiesterase YfgF,0,1,0,0,0.248971194,1
+Cyclic nucleotide-gated potassium channel,0,1,1,0,0.205128204,2
+Cysteine desulfurase SufS,0,0,1,0,0.259615385,1
+Cysteine desulfuration protein SufE,0,0,0,1,0.605633803,1
+Cysteine synthase,1,1,0,0,0.62109246,2
+Cytidine deaminase,1,0,0,1,0.39813958,2
+Cytidylate kinase,1,1,0,0,0.291320755,2
+Cytochrome b/c1,1,0,1,0,0.216692055,2
+Cytochrome b561 ,0,0,0,1,0.162162162,1
+Cytochrome b6,1,0,0,0,0.19047619,1
+Cytochrome c biogenesis ATP-binding export protein CcmA,1,0,0,1,0.627783669,2
+Cytochrome c oxidase assembly protein CtaG,1,0,1,0,0.525326797,2
+Cytochrome c oxidase subunit 1,1,1,0,0,1.271787617,2
+Cytochrome c oxidase subunit 2,1,1,0,0,1.707729468,2
+Cytochrome c oxidase subunit 3,1,0,1,0,0.320136641,2
+Cytochrome c-555,1,0,0,0,0.027855153,1
+Cytochrome c-type biogenesis protein CcmF,0,0,0,1,0.093781855,1
+Cytochrome c-type protein NrfB,0,0,1,1,1.152582159,2
+Cytochrome c1,1,1,0,1,1.321237,3
+Cytochrome c4,1,1,0,1,1.875446298,3
+Cytochrome c551 peroxidase,0,0,1,0,0.181434599,1
+Cytochrome c6,0,0,0,1,0.315492958,1
+Cytochrome subunit of sulfide dehydrogenase,1,1,1,1,4.242866046,4
+Cytoskeleton protein RodZ,1,0,0,0,0.03599712,1
+Cytosol aminopeptidase,1,0,1,1,0.584854806,3
+D-2-hydroxyacid dehydrogenase,0,0,0,1,0.152173913,1
+D-alanine--D-alanine ligase,0,0,0,1,0.335329341,1
+D-alanine--D-alanine ligase B,0,0,1,0,0.159680639,1
+D-alanyl-D-alanine carboxypeptidase DacA,1,1,0,0,0.394820777,2
+D-alanyl-D-alanine carboxypeptidase DacC,1,0,0,0,0.174427199,1
+D-aminoacyl-tRNA deacylase,1,0,0,0,0.267676768,1
+D-aminoacylase,0,0,0,1,0.203951562,1
+D-galactonate dehydratase,1,0,0,0,0.496,1
+D-hydantoinase,0,0,1,0,0.325274725,1
+D-hydantoinase/dihydropyrimidinase,0,0,1,0,0.469444445,1
+D-lactate dehydrogenase (acceptor),1,1,1,0,0.748089305,3
+Daunorubicin/doxorubicin resistance ATP-binding protein DrrA,0,0,0,1,0.343042071,1
+DegV domain-containing protein,0,0,1,0,0.170120436,1
+Dehydrosqualene desaturase,1,1,1,1,1.12447287,4
+Delta-aminolevulinic acid dehydratase,1,0,0,1,0.977564103,2
+Deoxyribose-phosphate aldolase,1,1,0,0,0.422783993,2
+Deoxyuridine 5'-triphosphate nucleotidohydrolase,0,0,1,0,0.587719298,1
+Diaminopimelate epimerase,0,0,1,0,0.115523466,1
+Dihydroanticapsin 7-dehydrogenase,0,0,0,1,0.171428571,1
+Dihydrofolate reductase type 3,0,1,1,0,0.637860083,2
+Dihydrofolate synthase/folylpolyglutamate synthase,0,0,1,0,0.172955975,1
+Dihydrolipoyl dehydrogenase,1,0,1,1,0.753072291,3
+Dihydrolipoyllysine-residue acetyltransferase component of acetoin cleaving system,1,0,0,0,0.677376171,1
+Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex,0,1,0,0,0.078720787,1
+Dihydroorotase,0,1,0,0,0.077554064,1
+"Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit",1,0,1,1,0.403814589,3
+Dihydroxy-acid dehydratase,1,0,0,1,0.473025399,2
+Dimethylamine corrinoid protein,0,1,1,1,0.840185676,3
+Dipeptidyl aminopeptidase BIII,0,1,1,1,0.613198852,3
+Dipeptidyl carboxypeptidase,1,1,1,1,0.718839908,4
+Dipeptidyl-peptidase 5,0,1,1,0,0.403935647,2
+Dissimilatory sulfite reductase,1,0,0,1,0.314880422,2
+Disulfide bond formation protein D,0,1,0,0,0.031674208,1
+dITP/XTP pyrophosphatase,0,0,1,1,0.476187026,2
+"Ditrans,polycis-undecaprenyl-diphosphate synthase ((2E,6E)-farnesyl-diphosphate specific)",0,0,0,1,0.176151762,1
+DNA gyrase subunit A,1,0,1,1,0.317394255,3
+DNA gyrase subunit B,1,0,1,1,0.414796027,3
+DNA ligase,1,0,1,0,0.252272183,2
+DNA mismatch repair protein MutL,1,0,0,0,0.073677956,1
+DNA polymerase I,0,0,1,1,0.348854581,2
+DNA polymerase III subunit alpha,1,1,1,0,0.165253528,3
+DNA polymerase III subunit beta,1,1,0,0,1.032932571,2
+DNA polymerase III subunit delta',1,0,0,0,0.102425876,1
+DNA polymerase III subunit tau,1,0,1,1,0.501900527,3
+DNA primase,0,0,0,1,0.130730051,1
+DNA processing protein DprA,1,0,1,0,0.283131452,2
+DNA repair and recombination protein RadA,1,1,0,0,0.64504108,2
+DNA repair and recombination protein RadB,1,1,0,0,0.662573917,2
+DNA repair protein RadA,0,1,0,1,0.687546606,2
+DNA repair protein RecN,0,0,1,0,0.236607143,1
+DNA topoisomerase 1,1,1,1,1,1.638175919,4
+DNA topoisomerase 4 subunit B,0,1,0,0,0.185479597,1
+DNA translocase FtsK,0,0,0,1,0.200757576,1
+DNA-binding protein Fis,0,0,1,0,0.697530864,1
+DNA-binding protein HU,1,1,1,1,14.35721505,4
+DNA-directed RNA polymerase subunit alpha,0,1,1,1,2.773589209,3
+DNA-directed RNA polymerase subunit beta,1,1,1,1,1.188653123,4
+DNA-directed RNA polymerase subunit beta',1,1,1,1,2.467092984,4
+DsdX permease,0,1,0,0,0.177877429,1
+Dual-specificity RNA methyltransferase RlmN,0,0,1,0,0.63049711,1
+ECF RNA polymerase sigma factor EcfG,1,0,0,0,0.598930481,1
+ECF RNA polymerase sigma factor SigE,0,0,0,1,0.072327044,1
+ECF RNA polymerase sigma factor SigR,0,1,1,1,1.644685448,3
+ECF RNA polymerase sigma factor SigW,1,1,1,1,3.573621489,4
+ECF RNA polymerase sigma-E factor,1,0,1,1,3.180784406,3
+Ectoine/5-hydroxyectoine TRAP transporter small permease protein UehB,0,1,0,0,0.454720616,1
+Efflux pump membrane transporter BepE,0,0,1,0,0.126373349,1
+Electron transfer flavoprotein subunit alpha,1,0,1,0,0.681777248,2
+Electron transfer flavoprotein subunit beta,0,1,1,0,0.730666667,2
+Electron transfer flavoprotein-ubiquinone oxidoreductase,1,0,1,1,0.675320417,3
+Electron transport complex subunit RnfC,0,0,1,1,0.004474273,2
+Electron transport complex subunit RnfE,1,0,0,0,0.323033949,1
+Electron transport complex subunit RnfG,1,1,1,0,0.445906434,3
+Electron transport complex subunit RsxA,0,1,0,0,0.379965458,1
+Electron transport complex subunit RsxB,1,0,0,0,0.527777777,1
+Electron transport complex subunit RsxD,0,0,1,0,0.292156863,1
+Elongation factor G,1,0,1,1,0.255299282,3
+Elongation factor G 1,1,0,1,1,0.218028316,3
+Elongation factor G-like protein,0,0,1,0,0.150758688,1
+Elongation factor P,0,0,0,1,0.455026455,1
+Elongation factor Ts,0,0,0,1,0.308390023,1
+Elongation factor Tu,1,1,1,1,4.66799478,4
+Endolytic murein transglycosylase,1,0,0,0,0.142222223,1
+Endonuclease YhcR,1,0,0,0,0.081836328,1
+Endoribonuclease YbeY,0,0,1,0,0.012578616,1
+Energy-dependent translational throttle protein EttA,0,0,1,0,0.212066906,1
+Enolase,1,1,0,1,0.510001641,3
+Enoyl-[acyl-carrier-protein] reductase [NADH] FabI,0,1,1,0,0.532075472,2
+Epoxyqueuosine reductase,0,0,0,1,0.272727273,1
+Error-prone DNA polymerase,1,0,0,0,0.205973039,1
+Esterase TesA,0,0,1,0,0.033167496,1
+Exodeoxyribonuclease,1,0,0,0,0.318082789,1
+Exodeoxyribonuclease 7 small subunit,0,0,0,1,1.042194093,1
+Exopolyphosphatase,1,0,0,1,0.601838771,2
+F(420)H(2) dehydrogenase subunit L,0,0,1,0,0.038617886,1
+F(420)H(2) dehydrogenase subunit M,0,1,0,0,0.145956607,1
+FAD:protein FMN transferase,1,0,1,0,0.44120148,2
+Fatty acid desaturase,0,0,0,1,0.255969436,1
+Fatty acid metabolism regulator protein,0,0,0,1,0.393495935,1
+Fatty acid oxidation complex subunit alpha,1,0,1,1,0.861174725,3
+Fe(2+) transporter FeoB,1,0,0,0,0.055486542,1
+Fe(3+) dicitrate transport protein FecA,0,0,1,0,0.125,1
+Ferredoxin 1,1,0,0,0,0.72327044,1
+Ferredoxin--NAD(P)(+) reductase fdr,1,0,0,0,0.143266476,1
+Ferric enterobactin receptor,1,0,0,0,0.040709391,1
+Ferric uptake regulation protein,1,0,0,0,0.650793651,1
+Ferrichrome-iron receptor,1,0,0,0,0.102722137,1
+Ferrienterobactin receptor,1,1,0,1,0.874876681,3
+Ferrous-iron efflux pump FieF,0,0,1,0,0.100546448,1
+FeS cluster assembly protein SufB,0,1,0,0,0.60179434,1
+Fimbrial protein,1,1,1,1,6.504713401,4
+FK506-binding protein,1,1,1,0,1.213330639,3
+Flavin-dependent tryptophan halogenase PrnA,0,0,1,0,0.578629032,1
+FMN-dependent NADH-azoreductase,1,0,0,0,0.385416666,1
+Formamidase,0,0,1,0,0.441260745,1
+Formate--tetrahydrofolate ligase,1,0,0,0,0.326421629,1
+Formate-dependent nitrite reductase complex subunit NrfG,1,0,1,0,0.71387645,2
+Fructose dehydrogenase large subunit,0,1,0,0,0.032615786,1
+"Fructose-1,6-bisphosphatase class 1",0,0,1,0,0.242512077,1
+Fructose-bisphosphate aldolase class 1,0,0,1,1,0.918069584,2
+Fumarate hydratase class II,1,0,1,0,0.598779519,2
+Fumarate reductase flavoprotein subunit,1,0,0,0,0.419970631,1
+Fumarate reductase iron-sulfur subunit,1,0,0,0,0.912698413,1
+Fused isobutyryl-CoA mutase,1,1,1,0,0.233897595,3
+Gamma-glutamyl-gamma-aminobutyrate hydrolase PuuD,1,0,0,0,0.297171998,1
+Gamma-glutamylputrescine oxidoreductase,0,0,1,0,0.229299363,1
+Gamma-glutamyltranspeptidase,0,0,1,0,0.116898148,1
+GDP-mannose-dependent alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase,1,0,0,1,0.177649414,2
+General stress protein 69,0,0,0,1,0.284253579,1
+Gliding motility regulatory protein,1,1,0,1,0.787110057,3
+Globin-coupled histidine kinase,0,0,1,0,0.138543517,1
+"Glucan endo-1,3-beta-glucosidase A1",0,0,1,0,0.265809218,1
+Glucose-1-phosphate adenylyltransferase,1,0,0,0,0.151138717,1
+Glucose-6-phosphate 1-dehydrogenase,0,0,1,1,0.720955519,2
+Glucose-6-phosphate isomerase,0,0,0,1,0.129315756,1
+"Glutamate 2,3-aminomutase",1,0,0,0,0.255411255,1
+Glutamate dehydrogenase,1,0,1,1,1.120708638,3
+Glutamate racemase 1,0,0,1,0,0.328502415,1
+Glutamate synthase [NADPH] large chain,0,0,1,0,0.018643306,1
+Glutamate synthase [NADPH] small chain,0,0,0,1,0.288700565,1
+Glutamate--cysteine ligase,0,0,1,0,0.16091954,1
+"Glutamate-1-semialdehyde 2,1-aminomutase",0,0,1,0,0.193853428,1
+Glutamine synthetase,1,1,0,1,0.755880495,3
+Glutamine--fructose-6-phosphate aminotransferase [isomerizing],1,0,0,1,0.066183066,2
+Glutamine--tRNA ligase,1,1,1,1,0.322458563,4
+Glutamine-dependent NAD(+) synthetase,1,0,0,0,0.051851852,1
+Glutamyl-tRNA(Gln) amidotransferase subunit A,0,1,0,1,0.541240627,2
+Glutamyl-tRNA(Gln) amidotransferase subunit C,0,1,0,0,0.666666666,1
+Glutarate-semialdehyde dehydrogenase DavD,1,0,0,0,0.141666667,1
+Glutaredoxin 4,1,0,0,0,1.451143451,1
+Glutathione amide reductase,0,0,0,1,0.40386043,1
+Glutathione amide-dependent peroxidase,1,1,1,1,2.0613971,4
+Glutathione import ATP-binding protein GsiA,1,0,1,0,0.322758743,2
+Glutathione S-transferase GST-6.0,1,0,0,0,0.1953125,1
+Glutathione S-transferase YfcF,1,1,1,0,0.743712109,3
+Glutathione transport system permease protein GsiD,0,0,1,0,0.063829787,1
+Glutathione-dependent formaldehyde-activating enzyme,0,0,1,1,0.542250233,2
+Glyceraldehyde-3-phosphate dehydrogenase,1,1,1,0,0.802843058,3
+Glycerol-3-phosphate acyltransferase,1,0,0,0,0.178465078,1
+Glycerol-3-phosphate transporter,1,0,0,0,0.091836735,1
+Glycine cleavage system H protein,0,1,0,0,0.646464646,1
+Glycine cleavage system transcriptional activator,0,1,0,0,0.194779116,1
+Glycine--tRNA ligase alpha subunit,1,1,0,0,0.669022227,2
+Glycine--tRNA ligase beta subunit,0,1,1,1,0.489631434,3
+Glycogen accumulation regulator GarA,1,1,0,1,0.9462274,3
+GMP synthase [glutamine-hydrolyzing],0,0,1,1,0.229584368,2
+"GTP 3',8-cyclase",0,1,0,0,0.270774977,1
+GTP pyrophosphokinase,1,0,1,0,0.125394646,2
+GTP-binding protein TypA/BipA,0,0,1,0,0.276353276,1
+GTPase Der,0,0,0,1,0.310421286,1
+GTPase HflX,0,0,1,1,0.356925418,2
+GTPase Obg,1,0,0,0,0.277214334,1
+Guanine deaminase,0,0,0,1,0.27039627,1
+"Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase",1,0,1,1,0.464850268,3
+Guanylate kinase,1,0,0,0,0.473794549,1
+Hdr-like menaquinol oxidoreductase cytochrome b-like subunit,1,0,0,0,0.316239316,1
+Hdr-like menaquinol oxidoreductase iron-sulfur subunit 1,0,0,0,1,0.520512821,1
+Hdr-like menaquinol oxidoreductase iron-sulfur subunit 2,1,1,1,1,1.846072676,4
+Heme A synthase,1,1,0,0,0.835565617,2
+Heme exporter protein C,0,0,0,1,0.151769088,1
+Hemin receptor,1,1,1,1,0.911853323,4
+Hemin transport system permease protein HmuU,0,0,1,0,0.277777778,1
+Hemoglobin and hemoglobin-haptoglobin-binding protein,0,1,0,0,0.172242875,1
+Hercynine oxygenase,1,0,0,0,0.174731183,1
+Heterodisulfide reductase subunit B-like protein,0,0,0,1,0.146250928,1
+High molecular weight rubredoxin,0,0,0,1,0.62295082,1
+High-potential iron-sulfur protein,1,0,0,1,1.149903431,2
+High-potential iron-sulfur protein isozyme 2,0,0,1,1,1.842592592,2
+Histidine ammonia-lyase,0,0,1,0,0.080392157,1
+Histidine--tRNA ligase,1,0,1,1,0.333367431,3
+Histidinol dehydrogenase,0,1,0,0,0.501924558,1
+Histone deacetylase-like amidohydrolase,0,0,0,1,0.750809062,1
+Homoisocitrate dehydrogenase,0,1,0,1,0.429590018,2
+Homoserine kinase,1,0,0,0,0.148,1
+Homoserine O-succinyltransferase,0,0,1,0,0.237288136,1
+HTH-type transcriptional regulator BetI,0,0,1,0,0.656156156,1
+HTH-type transcriptional regulator CysB,1,0,0,1,0.372675264,2
+HTH-type transcriptional regulator HexR,0,1,0,0,0.037825059,1
+HTH-type transcriptional regulator LutR,0,0,0,1,0.222222222,1
+HTH-type transcriptional regulator MurR,0,0,0,1,0.211111111,1
+HTH-type transcriptional regulator RutR,0,1,0,0,0.63963964,1
+HTH-type transcriptional regulator TcaR,0,1,1,0,0.134228187,2
+HTH-type transcriptional repressor BluR,1,1,1,1,3.57259995,4
+HTH-type transcriptional repressor ComR,0,0,0,1,0.563468686,1
+HTH-type transcriptional repressor YtrA,0,0,1,0,0.4609375,1
+Hydrogenase 1 maturation protease,0,1,1,0,1.842535789,2
+Hydrogenase 2 maturation protease,1,0,0,1,1.650104529,2
+Hydrogenase expression/formation protein HypD,0,1,0,0,0.60591833,1
+Hydrogenase isoenzymes formation protein HypC,1,0,0,1,4.069367393,2
+Hydrogenase isoenzymes formation protein HypE,1,0,0,1,0.670356257,2
+Hydrogenase isoenzymes nickel incorporation protein HypB,0,1,0,1,0.733001167,2
+Hydrogenase-1 large chain,1,1,1,1,0.497341615,4
+Hydroxymethylglutaryl-CoA synthase,0,1,1,1,0.58635549,3
+Hypoxic response protein 1,0,1,0,0,1.162162162,1
+Imidazolonepropionase,0,1,0,0,0.161649944,1
+Inner membrane protein YiaV,1,0,0,0,0.184079602,1
+Inner membrane protein YiaW,0,0,0,1,0.321321321,1
+Inner membrane protein YjdF,0,0,1,1,0.39275862,2
+Inner membrane symporter YicJ,0,1,0,0,0.093979442,1
+Inner membrane transport permease YbhR,1,0,0,0,0.223820943,1
+Inner membrane transport protein YajR,0,0,1,0,0.0856102,1
+Inosine-5'-monophosphate dehydrogenase,1,1,1,1,4.361871519,4
+Inositol-1-monophosphatase,0,0,1,0,0.148564295,1
+Insertion element IS6110 uncharacterized 12.0 kDa protein,0,0,1,0,0.62585034,1
+Integration host factor subunit alpha,1,1,1,1,3.977158838,4
+Integration host factor subunit beta,0,0,1,0,1.095709571,1
+Iron-sulfur cluster carrier protein,1,1,1,1,1.474715265,4
+Iron-sulfur cluster insertion protein ErpA,1,0,0,1,1.235184135,2
+Isocitrate dehydrogenase [NADP],0,0,0,1,0.0625,1
+Isocitrate lyase,1,1,1,1,1.508774871,4
+Isoleucine--tRNA ligase,0,0,1,1,0.102326327,2
+Isopropylmalate/citramalate isomerase large subunit,1,0,1,1,0.733051121,3
+Isoquinoline 1-oxidoreductase subunit beta,1,0,0,1,0.35048248,2
+K(+)-insensitive pyrophosphate-energized proton pump,1,0,1,1,0.872930176,3
+K(+)/H(+) antiporter NhaP,1,0,0,0,0.138643068,1
+Ketoisovalerate oxidoreductase subunit VorA,1,0,0,0,0.644757433,1
+Ketoisovalerate oxidoreductase subunit VorB,0,0,1,1,0.356736803,2
+Kynurenine 3-monooxygenase,1,0,0,0,0.12066365,1
+"L-2,4-diaminobutyrate decarboxylase",0,0,0,1,0.289473684,1
+L-aspartate/L-glutamate decarboxylase,0,0,0,1,0.255033557,1
+L-methionine gamma-lyase,1,1,0,0,0.515758547,2
+L-serine/homoserine O-acetyltransferase,1,0,0,0,0.26184739,1
+L-threonine 3-dehydrogenase,1,0,0,0,0.732732733,1
+Leucine--tRNA ligase,1,1,0,0,0.083260156,2
+Leucyl aminopeptidase,0,0,0,1,0.135531136,1
+Lipid A biosynthesis lauroyltransferase,0,1,0,0,0.51544196,1
+Lipid A export ATP-binding/permease protein MsbA,0,0,0,1,0.180921053,1
+Lipid-A-disaccharide synthase,0,0,1,0,0.134920635,1
+Lipoamide acyltransferase component of branched-chain alpha-keto acid dehydrogenase complex,1,0,0,0,0.209827357,1
+Lipoate-protein ligase A subunit 1,1,0,0,0,0.125265393,1
+Lipopolysaccharide assembly protein B,1,0,1,0,0.525530507,2
+Lipopolysaccharide export system ATP-binding protein LptB,1,0,1,0,0.62890443,2
+Lipopolysaccharide export system protein LptA,1,0,0,0,0.033333333,1
+Lipopolysaccharide export system protein LptC,1,0,0,0,0.306729265,1
+Lipoprotein NlpI,0,0,1,0,0.533980583,1
+Lipoprotein signal peptidase,0,0,1,0,0.787685775,1
+Lipoprotein-releasing system ATP-binding protein LolD,1,0,1,0,0.961495353,2
+Lon protease,1,1,1,1,1.877425183,4
+Long-chain-fatty-acid--CoA ligase,0,0,1,1,0.416365824,2
+Long-chain-fatty-acid--CoA ligase FadD15,1,0,1,1,1.025582307,3
+Low conductance mechanosensitive channel YnaI,0,0,1,1,0.248523886,2
+Low molecular weight protein-tyrosine-phosphatase YfkJ,0,0,1,0,0.257668712,1
+Lysine 6-dehydrogenase,0,0,0,1,0.018041237,1
+"Lysine--tRNA ligase, heat inducible",1,0,0,1,0.410262247,2
+Lysophospholipid transporter LplT,0,1,0,0,0.237942122,1
+Lysostaphin,1,0,0,0,0.310756972,1
+Macrolide export ATP-binding/permease protein MacB,1,1,1,1,1.087339157,4
+Maf-like protein YceF,0,1,0,0,0.220538721,1
+Maf-like protein YhdE,0,0,1,0,0.398058252,1
+Magnesium and cobalt efflux protein CorC,1,0,1,1,0.775706813,3
+Magnesium transporter MgtE,0,0,1,0,0.035555556,1
+Malate dehydrogenase,1,1,0,1,0.895225574,3
+Malate synthase G,0,0,1,1,0.383794211,2
+Maleylpyruvate isomerase,1,0,0,0,0.336787565,1
+Malonyl CoA-acyl carrier protein transacylase,0,1,0,0,0.245954693,1
+Maltodextrin phosphorylase,0,1,0,0,0.256954982,1
+Mechanosensitive channel MscK,0,0,1,0,0.133149679,1
+Membrane protein insertase YidC,0,1,0,0,0.173403632,1
+Membrane-bound aldehyde dehydrogenase [pyrroloquinoline-quinone],0,0,0,1,0.461245651,1
+Membrane-bound lytic murein transglycosylase D,1,1,0,0,0.90129412,2
+Membrane-bound protease,1,1,1,1,1.520486675,4
+Metallo-beta-lactamase fold-containing protein,1,0,1,0,1.033109324,2
+Metalloprotease PmbA,1,1,1,1,1.307696399,4
+Metalloprotease TldD,1,0,0,0,0.441147379,1
+Methionine aminopeptidase,1,0,0,0,0.113929684,1
+Methionine synthase,0,1,0,1,0.151588584,2
+Methionine--tRNA ligase,1,0,0,0,0.066487776,1
+Methyl-accepting chemotaxis protein McpQ,0,0,1,1,0.478155059,2
+Methyl-accepting chemotaxis protein PctC,0,0,1,0,0.057711443,1
+Methylmalonate semialdehyde dehydrogenase [acylating],1,0,0,0,0.221288515,1
+Methylmalonyl-CoA carboxyltransferase 12S subunit,0,0,1,1,0.392302917,2
+Methylthioribose-1-phosphate isomerase,0,1,1,0,0.198178466,2
+Microbial collagenase,1,0,0,1,0.227447659,2
+Minor extracellular protease vpr,1,0,1,1,0.41189344,3
+Modulator of FtsH protease HflC,1,0,1,0,0.323339122,2
+Modulator of FtsH protease HflK,1,1,1,1,1.553992944,4
+Molybdopterin molybdenumtransferase,1,0,0,0,0.393442623,1
+Monocarboxylate 2-oxoacid-binding periplasmic protein,1,1,1,1,1.806622976,4
+Multidrug efflux pump subunit AcrA,0,0,1,0,0.551051051,1
+Multidrug export protein EmrA,0,0,0,1,0.133126935,1
+Multidrug export protein MepA,0,1,0,0,0.187853107,1
+Multidrug resistance ABC transporter ATP-binding/permease protein BmrA,1,0,0,0,0.092222222,1
+Multidrug resistance protein MdtA,0,0,1,1,1.281062217,2
+Multidrug resistance protein MdtB,1,0,0,0,0.048975512,1
+Multidrug resistance protein NorM,1,0,1,0,0.255018592,2
+Multidrug/solvent efflux pump periplasmic linker protein MepA,0,1,0,0,0.269705603,1
+Muramidase-2,0,1,0,0,0.270072993,1
+Murein DD-endopeptidase MepM,1,1,1,0,1.131390026,3
+Murein hydrolase activator NlpD,0,0,0,1,0.242690058,1
+N-acetyl-gamma-glutamyl-phosphate reductase,0,0,0,1,0.128060264,1
+N-acetylmuramoyl-L-alanine amidase AmiC,0,0,1,1,0.508866794,2
+"N-alpha-acetyl-L-2,4-diaminobutyric acid deacetylase",1,0,0,0,0.282282282,1
+N-substituted formamide deformylase,0,0,1,0,0.21037037,1
+N5-carboxyaminoimidazole ribonucleotide mutase,0,0,1,0,0.511247444,1
+Na(+)-translocating NADH-quinone reductase subunit A,1,0,1,1,0.816336554,3
+Na(+)-translocating NADH-quinone reductase subunit B,0,0,1,1,0.397022333,2
+Na(+)-translocating NADH-quinone reductase subunit D,1,0,0,0,0.927835052,1
+Na(+)-translocating NADH-quinone reductase subunit E,0,0,1,0,0.76119403,1
+Na(+)-translocating NADH-quinone reductase subunit F,1,0,0,1,0.57039607,2
+Na(+)/H(+) antiporter NhaB,1,0,0,0,0.072,1
+NAD kinase,0,0,0,1,0.40943194,1
+NAD-dependent dihydropyrimidine dehydrogenase subunit PreA,1,1,0,1,0.777783719,3
+NAD-dependent malic enzyme,1,0,1,1,0.44733707,3
+NAD-specific glutamate dehydrogenase,1,1,1,1,0.364745531,4
+NAD(P) transhydrogenase subunit alpha,1,0,1,0,0.613392648,2
+NAD(P) transhydrogenase subunit beta,1,1,1,1,0.760304202,4
+NAD(P)-specific glutamate dehydrogenase,0,0,1,1,0.379791861,2
+NADH-quinone oxidoreductase chain 2,0,0,1,0,0.43902439,1
+NADH-quinone oxidoreductase chain 5,1,0,0,0,0.235460993,1
+NADH-quinone oxidoreductase subunit 11,1,0,1,0,1.660504201,2
+NADH-quinone oxidoreductase subunit A,1,0,0,0,0.948771636,1
+NADH-quinone oxidoreductase subunit B,1,0,0,0,0.808224349,1
+NADH-quinone oxidoreductase subunit D,0,0,1,0,0.628389155,1
+NADH-quinone oxidoreductase subunit H,0,1,1,0,0.492362982,2
+NADH-quinone oxidoreductase subunit J,1,0,0,0,0.029430582,1
+NADP-dependent 7-alpha-hydroxysteroid dehydrogenase,0,0,0,1,0.692431562,1
+NADP-reducing hydrogenase subunit HndC,0,0,0,1,0.178893179,1
+NADPH-dependent 7-cyano-7-deazaguanine reductase,0,0,0,1,0.235294118,1
+NADPH-dependent quinone reductase ArsH,1,0,0,0,0.447028424,1
+NADPH-Fe(3+) oxidoreductase subunit beta,1,1,1,1,0.953285167,4
+Neutral endopeptidase,1,1,1,1,0.622157096,4
+Nicotinate dehydrogenase FAD-subunit,0,0,1,0,0.34772979,1
+Nicotinate dehydrogenase subunit B,1,0,0,0,0.372670807,1
+Nitrilase,1,1,1,1,3.100433721,4
+Nitrite reductase,1,1,1,1,5.85840504,4
+Nitrogen regulation protein NR(I),0,1,1,0,0.157030692,2
+Nitrogen regulation protein NR(II),0,0,1,0,0.21352657,1
+Nitrogen regulatory protein,1,0,0,0,0.339712919,1
+Non-reducing end beta-L-arabinofuranosidase,1,0,1,0,0.427521304,2
+Nucleoside diphosphate kinase,0,0,0,1,0.601851852,1
+O-ureido-L-serine synthase,1,0,0,0,0.687022901,1
+Oligopeptidase A,1,0,1,0,0.282896591,2
+Oligopeptide transport system permease protein OppB,1,0,0,0,0.127819549,1
+Oligoribonuclease,1,0,0,0,0.03968254,1
+Oligosaccharide 4-alpha-D-glucosyltransferase,1,0,0,0,0.02342918,1
+Opine dehydrogenase,1,0,1,1,0.779759271,3
+Ornithine aminotransferase,0,0,1,0,0.293407614,1
+Ornithine aminotransferase 2,1,0,0,0,0.133149679,1
+Ornithine carbamoyltransferase,1,1,0,0,0.889280264,2
+Orotate phosphoribosyltransferase,1,0,0,0,0.606060606,1
+Orotidine 5'-phosphate decarboxylase,0,0,1,0,0.359832636,1
+Outer membrane p25,0,1,0,0,0.784530387,1
+Outer membrane porin F,1,0,0,1,0.378534201,2
+Outer membrane protein 26,1,0,1,0,0.380034276,2
+Outer membrane protein assembly factor BamA,1,1,1,0,0.910878101,3
+Outer membrane protein assembly factor BamD,1,1,1,0,0.53377069,3
+Outer membrane protein OprM,0,0,0,1,0.165688193,1
+Outer membrane protein TolC,1,0,1,1,1.608937764,3
+Outer-membrane lipoprotein carrier protein,0,0,0,1,0.319508449,1
+Oxalate oxidoreductase subunit delta,0,0,0,1,1.945355191,1
+oxaloacetate decarboxylase gamma chain,1,0,0,0,1.269379845,1
+Oxoglutarate dehydrogenase inhibitor,0,0,0,1,0.301327088,1
+Oxygen sensor protein DosP,1,1,0,1,0.976019238,3
+Oxygen-independent coproporphyrinogen III oxidase,0,0,1,1,0.135361615,2
+"p-hydroxyphenylacetate 3-hydroxylase, reductase component",0,0,0,1,0.27672956,1
+P-protein,1,0,1,0,0.615798695,2
+Penicillin-binding protein 1A,0,1,0,0,0.122260669,1
+Peptide chain release factor 3,0,0,0,1,0.080961417,1
+Peptide chain release factor RF1,0,1,0,0,0.524469068,1
+Peptide chain release factor RF2,0,1,0,0,0.67382845,1
+Peptide deformylase,1,0,0,0,0.421568627,1
+Peptide methionine sulfoxide reductase MsrA,0,1,1,0,0.635091313,2
+Peptide methionine sulfoxide reductase MsrB,0,1,0,0,0.096692112,1
+"Peptidoglycan D,D-transpeptidase FtsI",0,0,0,1,1.089201878,1
+Peptidoglycan-associated lipoprotein,0,0,0,1,0.815238095,1
+Peptidyl-prolyl cis-trans isomerase B,0,0,1,0,0.70781893,1
+Peptidyl-prolyl cis-trans isomerase D,1,0,0,1,0.516975763,2
+Peptidyl-tRNA hydrolase,1,0,0,0,0.250764526,1
+Periplasmic oligopeptide-binding protein,0,1,0,0,0.21025641,1
+Periplasmic pH-dependent serine endoprotease DegQ,0,0,1,1,0.925618972,2
+Periplasmic serine endoprotease DegP,1,0,0,0,0.054116293,1
+Peroxide operon regulator,0,1,0,0,0.549019608,1
+Pesticin receptor,1,1,1,0,1.803858244,3
+Phage shock protein A,1,1,1,1,3.017573014,4
+Phage shock protein C,0,0,0,1,0.360902256,1
+Phenolic acid decarboxylase subunit C,0,0,1,0,0.03286385,1
+Phenylalanine--tRNA ligase alpha subunit,0,0,0,1,0.089430894,1
+Phenylalanine--tRNA ligase beta subunit,1,1,1,1,0.492836451,4
+Phenylserine dehydratase,1,0,0,1,0.213438641,2
+PhoH-like protein,0,0,1,0,0.154618474,1
+Phosphatase NudJ,0,0,0,1,1.402439025,1
+Phosphate acyltransferase,0,1,0,0,0.226993865,1
+Phosphate regulon sensor protein PhoR,0,0,1,0,0.158878505,1
+Phosphate-binding protein PstS,0,0,0,1,0.058215962,1
+Phosphatidylserine decarboxylase proenzyme,0,0,0,1,0.368794326,1
+Phospho-2-dehydro-3-deoxyheptonate aldolase,1,0,0,0,0.099637681,1
+Phosphoenolpyruvate synthase,0,1,1,1,0.173652559,3
+Phosphoenolpyruvate synthase regulatory protein,1,0,0,0,0.257668712,1
+Phosphoglucosamine mutase,0,0,1,0,0.023970037,1
+Phosphoglycolate phosphatase,1,0,0,0,0.462913316,1
+Phosphoribosyl-AMP cyclohydrolase,1,0,0,0,0.647899911,1
+Phosphoribosylformylglycinamidine cyclo-ligase,0,1,1,0,0.589768327,2
+Phosphoribosylformylglycinamidine synthase,1,0,0,0,0.086324786,1
+Phosphoribosylglycinamide formyltransferase,0,1,1,0,0.196099697,2
+"Phosphoribulokinase, chromosomal",1,0,1,0,0.775403889,2
+Phosphoserine aminotransferase,0,1,0,1,0.525925926,2
+Phycocyanobilin lyase subunit alpha,0,1,0,0,0.146910634,1
+Phytoene desaturase (lycopene-forming),1,0,1,1,1.555652842,3
+Phytoene desaturase (neurosporene-forming),1,0,0,0,0.044560944,1
+Poly(A) polymerase I,0,0,1,1,0.193076561,2
+Polyamine aminopropyltransferase,1,0,0,0,0.036879433,1
+Polyribonucleotide nucleotidyltransferase,1,1,1,1,1.132844067,4
+Polysulfide reductase chain A,0,0,1,0,0.121608527,1
+Polyvinylalcohol dehydrogenase,1,0,1,1,0.199140963,3
+Porphobilinogen deaminase,0,0,0,1,0.151024811,1
+Primosomal protein N',0,1,1,0,0.308664115,2
+Proline--tRNA ligase,0,1,0,0,0.163410302,1
+Propionyl-CoA carboxylase beta chain,0,1,0,0,0.18699187,1
+Protease 4,1,0,1,0,0.158297066,2
+Protease HtpX ,0,0,1,0,0.167084378,1
+Protein GrpE,0,0,1,0,0.231958763,1
+Protein Smg,1,1,0,0,0.696625149,2
+Protein TolB,0,1,0,1,0.302383359,2
+Protein translocase subunit SecA,1,0,0,1,0.247449213,2
+Protein translocase subunit SecE,0,1,1,0,1.549707603,2
+Protein translocase subunit SecY,1,1,1,1,1.224354104,4
+Protein-export membrane protein SecD,0,1,1,0,0.188741722,2
+Protein-export protein SecB,1,0,0,0,0.53,1
+Protein-L-isoaspartate O-methyltransferase,1,0,1,1,1.404353662,3
+Proton/glutamate-aspartate symporter,0,1,0,0,0.225806452,1
+Psp operon transcriptional activator,0,0,1,0,0.124260355,1
+Purine nucleoside phosphorylase DeoD-type,0,1,0,0,0.149085795,1
+putative 3-hydroxyacyl-CoA dehydrogenase,0,1,1,0,1.425552388,2
+Putative 3-oxopropanoate dehydrogenase,1,1,1,0,0.539460492,3
+putative ABC transporter ATP-binding protein,0,0,0,1,0.340548341,1
+putative ABC transporter ATP-binding protein YbhF,0,0,1,0,0.278131635,1
+putative ABC transporter ATP-binding protein YknY,1,0,1,1,0.648292585,3
+putative acrylyl-CoA reductase AcuI,0,1,0,0,0.374622356,1
+putative alcohol dehydrogenase AdhA,1,0,0,0,0.477941176,1
+Putative alkyl/aryl-sulfatase YjcS,0,0,0,1,0.140952381,1
+putative allantoin permease,1,0,0,1,0.252552025,2
+Putative amidase AmiD,0,1,0,0,0.185750636,1
+Putative aminoacrylate hydrolase RutD,0,0,1,0,0.023688663,1
+putative aminomethyltransferase,0,0,1,0,0.407220823,1
+Putative ammonium transporter,1,0,0,0,0.118518519,1
+Putative anti-sigma factor antagonist BtrV,1,1,1,0,3.26109456,3
+putative ATP-dependent transporter SufC,0,1,0,0,0.802124835,1
+putative bifunctional SAT/APS kinase,0,1,1,0,0.207822534,2
+putative binding protein component of ABC iron transporter,0,0,1,0,0.215488215,1
+Putative carboxypeptidase YodJ,0,1,0,0,0.441814596,1
+putative CtpA-like serine protease,1,0,1,1,0.589797784,3
+Putative cystathionine beta-synthase,0,0,0,1,0.137298091,1
+putative cysteine desulfurase,1,0,0,0,0.322447063,1
+Putative diacyglycerol O-acyltransferase,0,0,0,1,0.540617273,1
+putative diguanylate cyclase YcdT,0,0,0,1,0.036398467,1
+Putative dimethyl sulfoxide reductase membrane subunit C,0,1,0,0,0.646556948,1
+Putative DNA repair helicase RadD,0,1,0,0,0.230985916,1
+Putative formate dehydrogenase,1,0,0,1,0.265622525,2
+Putative glutamate--cysteine ligase 2,0,1,1,0,0.466622922,2
+putative glycine dehydrogenase (decarboxylating) subunit 1,1,0,1,0,0.423369091,2
+putative glycine dehydrogenase (decarboxylating) subunit 2,0,0,1,1,0.056302845,2
+putative HTH-type transcriptional regulator,1,0,1,1,2.859133587,3
+putative HTH-type transcriptional regulator YurK,1,0,0,0,0.151230425,1
+Putative hydroxypyruvate reductase,1,0,0,0,0.082799146,1
+putative L-galactonate transporter,1,1,0,0,0.589383776,2
+"putative L,D-transpeptidase ErfK/SrfK",1,0,0,1,0.799305917,2
+"Putative L,D-transpeptidase YkuD",1,0,0,0,0.32034632,1
+"putative L,D-transpeptidase YnhG",0,0,1,0,0.260784314,1
+putative lipid II flippase MurJ,0,0,1,0,0.173126615,1
+Putative lipoprotein LppC,0,0,0,1,0.491666667,1
+putative lipoprotein YiaD,0,0,1,0,0.973286741,1
+Putative metal-sulfur cluster biosynthesis proteins YuaD,0,0,0,1,0.370940171,1
+putative metallo-hydrolase,0,0,0,1,0.303240741,1
+putative methylmalonyl-CoA mutase large subunit,1,0,1,0,0.28048079,2
+putative MFS-type transporter YhjX,1,0,0,0,0.336077833,1
+putative MscS family protein.1,0,1,0,0,1.166666666,1
+Putative NADP-dependent oxidoreductase YfmJ,0,1,0,0,0.252941176,1
+putative Ni/Fe-hydrogenase B-type cytochrome subunit,1,0,1,1,0.80395695,3
+putative NTE family protein,1,0,1,0,1.057161873,2
+Putative nucleoside transporter YegT,0,1,0,0,0.257425743,1
+putative Nudix hydrolase NudL,0,1,0,0,0.460606061,1
+putative oxidoreductase,0,1,0,1,1.748697916,2
+putative oxidoreductase YciK,0,1,0,0,0.05312085,1
+putative parvulin-type peptidyl-prolyl cis-trans isomerase,0,1,0,0,0.98892989,1
+putative peptidoglycan glycosyltransferase FtsW,1,0,1,0,0.365319865,2
+Putative peroxiredoxin,1,0,0,0,0.663546917,1
+Putative peroxiredoxin bcp,0,1,1,0,2.235233635,2
+putative phosphatase,1,0,0,1,0.386623031,2
+putative phospholipid ABC transporter-binding protein MlaD,0,0,1,0,0.981273408,1
+putative phospholipid import ATP-binding protein MlaF,1,0,0,0,0.235294118,1
+Putative pre-16S rRNA nuclease,1,0,0,0,0.00853549,1
+putative protease YhbU,0,0,0,1,0.329683698,1
+putative protein kinase UbiB,1,0,1,0,0.337742062,2
+Putative protein phosphatase 2C-type,1,0,1,0,0.670916962,2
+Putative pterin-4-alpha-carbinolamine dehydratase,1,0,0,0,0.958730159,1
+Putative serine protease HtrA,0,0,1,1,0.085744909,2
+Putative short-chain type dehydrogenase/reductase,0,0,1,1,0.777815875,2
+putative signaling protein,1,0,0,1,0.457289212,2
+putative signaling protein_64787,1,0,0,0,0.007524455,1
+Putative SOS response-associated peptidase YedK,0,0,1,0,1.349456001,1
+Putative sulfurtransferase DsrE,1,0,1,0,0.602674897,2
+putative transcriptional regulatory protein,1,0,1,0,0.719094276,2
+putative tRNA-dihydrouridine synthase,0,0,0,1,0.361702128,1
+Putative type II secretion system protein F,1,0,0,0,0.113689095,1
+Putative uroporphyrinogen-III C-methyltransferase,0,0,0,1,0.227598566,1
+putative xanthine dehydrogenase subunit D,0,0,1,1,0.342631604,2
+putative zinc protease,0,1,1,1,0.745070633,3
+Pyridoxine 5'-phosphate synthase,1,0,0,0,0.613908873,1
+Pyridoxine/pyridoxamine 5'-phosphate oxidase,0,0,0,1,0.17453505,1
+Pyrimidine-specific ribonucleoside hydrolase RihA,0,0,0,1,0.22079314,1
+Pyrophosphate--fructose 6-phosphate 1-phosphotransferase,1,0,1,0,0.217093175,2
+Pyruvate carboxylase subunit B,1,0,1,0,0.213364543,2
+Pyruvate dehydrogenase E1 component,1,1,0,0,0.147427872,2
+Pyruvate kinase,1,0,1,1,0.322070526,3
+Pyruvate kinase II,0,0,1,0,0.180932498,1
+Pyruvate synthase subunit PorA,1,1,1,1,0.857966116,4
+Pyruvate synthase subunit PorB,1,1,0,1,0.432027124,3
+Pyruvate synthase subunit PorC,1,0,1,0,0.922725961,2
+Pyruvate-flavodoxin oxidoreductase,1,1,1,0,0.255863322,3
+"Pyruvate, phosphate dikinase",0,1,1,0,0.857499083,2
+"Quercetin 2,3-dioxygenase",1,1,0,0,0.656801384,2
+Quinohemoprotein alcohol dehydrogenase ADH IIB,0,0,0,1,0.13144208,1
+Quinone oxidoreductase 1,0,1,0,0,0.20781893,1
+Quinoprotein glucose dehydrogenase,0,0,0,1,0.147013783,1
+RCS-specific HTH-type transcriptional activator RclR,0,0,0,1,0.292377702,1
+Recombination and repair protein,0,1,1,0,1.22064394,2
+Regulator of sigma-E protease RseP,1,1,1,0,0.589538728,3
+Replication-associated recombination protein A,0,0,1,0,0.148823083,1
+Replicative DNA helicase,1,1,1,0,1.29932978,3
+Response regulator PleD,1,0,0,0,0.308539945,1
+Response regulator protein TmoT,0,1,0,0,0.396747967,1
+Response regulator protein TodT,1,0,0,0,0.161111111,1
+Riboflavin biosynthesis protein RibBA,0,0,1,1,0.389147607,2
+Ribonuclease D,0,1,0,0,0.143389199,1
+Ribonuclease G,0,1,0,0,0.3326572,1
+Ribonuclease PH,0,0,0,1,0.218967922,1
+Ribonuclease R,1,0,0,0,0.068100359,1
+Ribonuclease T,0,0,1,0,0.172248804,1
+Ribose-5-phosphate isomerase A,1,0,0,0,0.352352352,1
+Ribose-phosphate pyrophosphokinase,1,0,0,0,0.043662431,1
+Ribosomal large subunit pseudouridine synthase C,0,0,0,1,0.087398374,1
+Ribosomal large subunit pseudouridine synthase D,1,0,0,0,0.071404051,1
+Ribosomal protein S6--L-glutamate ligase,0,0,1,0,0.290491118,1
+Ribosomal RNA large subunit methyltransferase H,0,0,0,1,0.458598726,1
+Ribosomal RNA small subunit methyltransferase B,0,0,0,1,0.288186606,1
+Ribosomal RNA small subunit methyltransferase D,1,0,0,0,0.223958333,1
+Ribosomal RNA small subunit methyltransferase G,0,0,0,1,0.451476793,1
+Ribosomal RNA small subunit methyltransferase H,1,1,1,0,0.251009704,3
+Ribosomal RNA small subunit methyltransferase I,1,0,0,0,0.523410394,1
+Ribosomal-protein-alanine acetyltransferase,1,0,0,0,0.209915612,1
+Ribosome hibernation promoting factor,1,1,0,0,1.837488104,2
+Ribosome maturation factor RimM,1,0,0,0,1.174291272,1
+Ribosome-binding ATPase YchF,0,1,0,0,0.043040293,1
+Ribulose bisphosphate carboxylase,1,0,1,0,0.608545318,2
+Ribulose-phosphate 3-epimerase,0,0,1,1,0.234678625,2
+RNA polymerase sigma factor RpoD,1,1,1,1,0.9328328,4
+RNA polymerase sigma factor RpoH,0,1,1,1,1.856481481,3
+RNA polymerase sigma factor RpoS,0,0,0,1,0.125142207,1
+RNA polymerase sigma factor SigV,0,0,0,1,0.984276729,1
+RNA polymerase sigma-54 factor,1,0,1,1,0.808153341,3
+RNA polymerase-binding transcription factor DksA,1,1,1,1,8.713309341,4
+RNA pyrophosphohydrolase,1,0,1,0,0.949221204,2
+RNA-binding protein,0,0,0,1,0.064724919,1
+RNA-binding protein Hfq,0,0,1,0,0.473895582,1
+RNase adapter protein RapZ,0,0,0,1,0.664391354,1
+Rod shape-determining protein MreB,1,0,0,1,0.616846739,2
+Rubrerythrin,0,0,1,1,3.888095238,2
+S-adenosylmethionine synthase,1,0,0,0,0.04517134,1
+SCO1 protein ,1,0,0,0,0.198336532,1
+Sec-independent protein translocase protein TatA,0,0,0,1,0.852320675,1
+Sec-independent protein translocase protein TatB,0,0,0,1,0.15576324,1
+Segregation and condensation protein A,1,0,1,0,0.49458256,2
+Sensor histidine kinase QseE,1,0,0,0,0.134199134,1
+Sensor protein TorS,0,1,0,0,0.08959757,1
+Sensory/regulatory protein RpfC,0,0,1,1,0.215985023,2
+Serine endoprotease DegS,1,0,0,0,0.061266874,1
+Serine--tRNA ligase,0,0,1,0,0.02672956,1
+Serine/threonine phosphatase stp,1,0,0,1,0.263910878,2
+Serine/threonine-protein kinase BtrW,0,1,0,0,0.601010101,1
+Serine/threonine-protein kinase pkn1,0,1,0,0,0.291306139,1
+Serine/threonine-protein kinase PknB,1,1,0,0,0.743897269,2
+Serine/threonine-protein kinase PrkC,1,1,0,1,1.258399177,3
+Serine/threonine-protein kinase StkP,0,1,0,0,0.28689884,1
+Shikimate dehydrogenase (NADP(+)),1,0,0,0,0.178571429,1
+Shikimate kinase 1,1,0,0,0,0.409090909,1
+Signal recognition particle protein,0,0,1,0,0.016152717,1
+Signal transduction histidine-protein kinase BaeS,0,1,0,0,0.324603175,1
+Signal transduction histidine-protein kinase BarA,1,0,0,0,0.020661157,1
+Single-stranded DNA-binding protein,1,0,1,0,1.535239817,2
+Small ribosomal subunit biogenesis GTPase RsgA,1,0,0,0,0.274895648,1
+Small-conductance mechanosensitive channel,1,1,1,0,0.918068647,3
+Sodium/pantothenate symporter,0,0,0,1,0.087542088,1
+Sodium/proton-dependent alanine carrier protein,0,1,0,0,0.290262172,1
+Solute-binding protein,0,1,1,0,0.821428571,2
+Spermidine/putrescine import ATP-binding protein PotA,1,0,0,0,0.046376812,1
+Spore coat protein A,0,1,1,1,0.414525595,3
+Spore protein SP21,1,1,1,1,8905.98635,4
+Stomatin,1,1,1,1,3.244518807,4
+Stress response kinase A,1,0,0,0,0.133768352,1
+Succinate dehydrogenase cytochrome b556 subunit,0,0,0,1,0.238095238,1
+Succinate dehydrogenase flavoprotein subunit,0,1,1,0,0.160784313,2
+Succinate dehydrogenase iron-sulfur subunit,0,1,0,0,0.372924649,1
+Succinate--CoA ligase [ADP-forming] subunit alpha,1,0,0,1,0.612973899,2
+Succinate--CoA ligase [ADP-forming] subunit beta,0,0,1,0,0.825396825,1
+Succinate-semialdehyde dehydrogenase [NADP(+)] GabD,0,0,1,1,0.551998726,2
+Succinyl-diaminopimelate desuccinylase,0,1,0,1,0.565742714,2
+Sulfate permease CysP,1,0,0,0,0.19856067,1
+Sulfide dehydrogenase subunit alpha,1,1,1,1,1.325426631,4
+Sulfide dehydrogenase subunit beta,1,0,1,1,1.714757061,3
+Sulfide-quinone reductase,0,1,0,0,0.108695652,1
+"Sulfite reductase, dissimilatory-type subunit alpha",0,1,1,0,0.222656484,2
+"Sulfite reductase, dissimilatory-type subunit beta",1,1,1,1,1.634901079,4
+Sulfofructose kinase,1,0,0,0,0.025,1
+Sulfurtransferase FdhD,0,0,1,0,0.080291971,1
+Sulfurtransferase TusA,0,1,1,0,2.337662338,2
+Swarming motility protein SwrC,1,0,0,1,0.845027533,2
+Tail-specific protease,1,1,0,1,1.188816347,3
+Taurine--pyruvate aminotransferase,1,0,0,0,0.054644809,1
+Tetrathionate reductase subunit B,1,1,0,0,0.903184324,2
+Thermostable carboxypeptidase 1,0,1,0,0,0.353787879,1
+Thermostable monoacylglycerol lipase,1,0,0,1,0.287423231,2
+Thiol peroxidase,0,0,1,0,0.753295669,1
+Thiol-disulfide oxidoreductase ResA,0,1,1,0,0.609352303,2
+Thiol:disulfide interchange protein DsbC,1,0,1,1,1.664404653,3
+Thiol:disulfide interchange protein DsbD,0,0,0,1,0.101174345,1
+Thiol:disulfide interchange protein DsbE,1,0,1,0,0.46491812,2
+Thioredoxin 1,1,0,0,1,0.467174674,2
+Thioredoxin reductase,1,0,0,0,0.035686275,1
+Thiosulfate sulfurtransferase GlpE,1,0,1,0,0.456410257,2
+Thiosulfate sulfurtransferase PspE,1,1,0,1,2.56143662,3
+Threonine synthase,0,1,0,0,0.306372549,1
+Threonine--tRNA ligase,0,0,0,1,0.1300052,1
+Threonylcarbamoyl-AMP synthase,0,0,1,0,0.303703704,1
+Thymidine kinase,0,0,1,0,0.029100529,1
+Thymidylate synthase,0,0,1,0,0.032704403,1
+Toluene efflux pump membrane transporter TtgE,1,0,0,0,0.011947431,1
+Toluene efflux pump periplasmic linker protein TtgA,0,0,0,1,0.253401361,1
+Toluene efflux pump periplasmic linker protein TtgD,0,0,0,1,0.353723404,1
+Transcription termination factor Rho,1,0,1,1,0.775608518,3
+Transcription termination/antitermination protein NusA,1,1,0,0,0.427461052,2
+Transcription termination/antitermination protein NusG,0,0,1,0,0.322097378,1
+Transcriptional activator CadC,0,1,0,0,0.222572178,1
+Transcriptional activator HlyU,0,0,1,1,0.716023392,2
+Transcriptional activator protein Anr,1,0,1,1,1.39001105,3
+Transcriptional activatory protein AadR,1,0,0,1,0.507889619,2
+Transcriptional regulator HilA,1,0,0,0,0.049195862,1
+Transcriptional regulator MraZ,0,0,1,1,1.209648184,2
+Transcriptional regulator SdrP,0,0,0,1,0.303834808,1
+Transcriptional regulatory protein DegU,0,1,1,0,0.955038372,2
+Transcriptional regulatory protein GlrR,1,0,0,0,0.189102564,1
+Transcriptional regulatory protein OmpR,0,1,1,1,0.926909651,3
+Transcriptional regulatory protein UhpA,0,0,0,1,0.281761006,1
+Transcriptional regulatory protein WalR,1,0,0,0,0.242074928,1
+Transcriptional regulatory protein YehT,0,0,1,0,0.026773762,1
+Transcriptional regulatory protein ZraR,0,0,0,1,0.250764526,1
+Transketolase 1,0,1,1,1,0.815926418,3
+Translation initiation factor IF-1,1,0,1,0,1.692438078,2
+Translation initiation factor IF-2,0,1,1,0,0.07442597,2
+Translation initiation factor IF-3,1,0,1,1,1.74583521,3
+Trehalose/maltose import ATP-binding protein MalK,1,0,0,1,0.529275808,2
+Tricorn protease-interacting factor F2,0,0,0,1,0.154332701,1
+Trigger factor,0,0,1,0,0.226356589,1
+Trimethylamine dehydrogenase,1,1,0,0,0.24962924,2
+Trk system potassium uptake protein TrkA,1,0,0,0,0.140651801,1
+Trk system potassium uptake protein TrkH,0,1,0,0,0.254820936,1
+tRNA (cytidine(34)-2'-O)-methyltransferase,0,0,1,0,0.49122807,1
+tRNA (guanine-N(1)-)-methyltransferase,1,0,0,0,0.176791278,1
+tRNA (guanine-N(7)-)-methyltransferase,1,0,0,0,0.036979969,1
+tRNA modification GTPase MnmE,1,0,0,1,0.535673605,2
+tRNA pseudouridine synthase A,0,0,0,1,0.140826873,1
+tRNA pseudouridine synthase D,1,1,1,1,0.442167668,4
+tRNA-modifying protein YgfZ,0,0,0,1,0.339449541,1
+tRNA(Ile)-lysidine synthase,1,0,0,0,0.157854406,1
+Tropinesterase,1,0,0,0,0.244318182,1
+Trp operon repressor,0,0,0,1,0.633027523,1
+"Tryptophan 2,3-dioxygenase",1,0,0,0,0.358366271,1
+Tryptophan synthase alpha chain,1,0,1,0,0.872764772,2
+Tryptophan synthase beta chain 1,1,0,1,0,0.079854654,2
+Tryptophanase 2,1,0,0,1,0.244019079,2
+Twitching mobility protein,1,1,1,1,1.876955185,4
+Type 4 prepilin-like proteins leader peptide-processing enzyme,1,0,0,0,0.383540373,1
+Type II secretion system protein C,1,0,0,1,0.326096141,2
+Type II secretion system protein D,1,0,1,1,0.5597703,3
+Type II secretion system protein E,1,1,1,1,2.741114365,4
+Type II secretion system protein F,1,1,1,1,0.982677145,4
+Type II secretion system protein G,1,0,0,1,1.223619649,2
+Type II secretion system protein L,1,0,1,0,0.305440368,2
+Type III pantothenate kinase,1,1,0,0,0.848560756,2
+Type IV pilus biogenesis and competence protein PilQ,1,1,1,1,1.937794179,4
+Type IV pilus biogenesis factor PilY1,1,1,1,0,0.345439684,3
+Tyrocidine synthase 1,1,0,0,0,0.079432624,1
+Tyrosine phenol-lyase,1,0,1,1,0.608113421,3
+Tyrosine recombinase XerC,1,0,1,0,0.072222222,2
+Tyrosine recombinase XerD,1,1,0,0,1.371770379,2
+Tyrosine--tRNA ligase,0,1,0,0,0.099166667,1
+Ubiquinol-cytochrome c reductase iron-sulfur subunit,0,0,1,0,0.238095238,1
+Ubiquinone biosynthesis O-methyltransferase,0,0,0,1,0.474622771,1
+Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE,1,0,0,0,0.259958071,1
+UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase,0,0,1,0,0.198412698,1
+UDP-3-O-acyl-N-acetylglucosamine deacetylase,0,0,0,1,0.23501199,1
+UDP-3-O-acylglucosamine N-acyltransferase,0,1,1,0,0.591715975,2
+UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,1,0,0,0,0.266404199,1
+UDP-N-acetylmuramate--L-alanine ligase,0,1,1,1,0.619048444,3
+"UDP-N-acetylmuramate--L-alanyl-gamma-D-glutamyl-meso-2,6-diaminoheptandioate ligase",0,1,0,0,0.206741573,1
+"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase",0,0,0,1,0.165003327,1
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase,0,0,1,1,0.377790956,2
+UDP-N-acetylmuramoylalanine--D-glutamate ligase,1,0,1,0,0.705363762,2
+Undecaprenyl-diphosphatase,0,0,0,1,0.278195489,1
+Universal stress protein E,1,0,0,1,1.805734332,2
+Uptake hydrogenase large subunit,0,1,1,1,1.134894091,3
+Uptake hydrogenase small subunit,1,1,1,1,3.033010049,4
+Uracil phosphoribosyltransferase,1,1,0,0,0.858983535,2
+Ureidoglycolate lyase,1,0,0,0,0.242424243,1
+Uridylate kinase,1,1,1,1,1.548575093,4
+Urocanate hydratase,0,0,1,1,0.063508391,2
+Uroporphyrinogen-III synthase,0,1,0,0,0.566280566,1
+UvrABC system protein A,1,1,0,0,0.444142862,2
+Valine--tRNA ligase,1,0,1,0,0.188156574,2
+Viral histone-like protein,0,0,1,1,2.040498442,2
+Vitamin B12 transporter BtuB,1,1,1,1,6.561728952,4
+Vitamin B12-binding protein,1,0,0,0,0.593759004,1
+Vitamin B12-dependent ribonucleoside-diphosphate reductase,1,1,1,1,1.078159867,4
+Xaa-Pro aminopeptidase,0,0,0,1,0.02764977,1
+Xaa-Pro dipeptidase,0,1,0,0,0.275510204,1
+Zinc transport protein ZntB,0,0,0,1,0.28742515,1
